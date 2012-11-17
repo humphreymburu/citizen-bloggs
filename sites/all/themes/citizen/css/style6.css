@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.ctools-locked {
+    border: 1px solid red;
+    color: red;
+    padding: 1em;
+}
+.ctools-owns-lock {
+    background: none repeat scroll 0 0 #FFFFDD;
+    border: 1px solid #F0C020;
+    padding: 1em;
+}
+a.ctools-ajaxing, input.ctools-ajaxing, button.ctools-ajaxing, select.ctools-ajaxing {
+    background: url("../images/status-active.gif") no-repeat scroll right center transparent;
+    padding-right: 18px !important;
+}
+div.ctools-ajaxing {
+    background: url("../images/status-active.gif") no-repeat scroll center center transparent;
+    float: left;
+    width: 18px;
+}

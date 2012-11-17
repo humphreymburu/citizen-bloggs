@@ -1,0 +1,12 @@
+diff --git a/includes/views/og_handler_field_prerender_list.inc b/includes/views/og_handler_field_prerender_list.inc
+index 229cdda..1bae25a 100644
+--- a/includes/views/og_handler_field_prerender_list.inc
++++ b/includes/views/og_handler_field_prerender_list.inc
+@@ -32,6 +32,7 @@ class og_handler_field_prerender_list extends views_handler_field_prerender_list
+             $this->original_value = $this->last_render;
+ 
+             $alter = $item + $this->options['alter'];
++            $alter['phase'] = VIEWS_HANDLER_RENDER_TEXT_PHASE_SINGLE_ITEM;            
+             $items[] = $this->render_text($alter);
+           }
+         }

@@ -1,0 +1,12 @@
+diff --git a/relation_entity_collector/relation_entity_collector.module b/relation_entity_collector/relation_entity_collector.module
+index 7bab2b9..9d571f9 100644
+--- a/relation_entity_collector/relation_entity_collector.module
++++ b/relation_entity_collector/relation_entity_collector.module
+@@ -441,6 +441,7 @@ function relation_entity_collector_views_post_execute($view) {
+           'entity_type' => $entity_type,
+         );
+       }
++      $collect = array();
+       foreach ($view->query->fields as $alias => $field) {
+         if (isset($field['table'])) {
+           $table_name = $view->query->table_queue[$field['table']]['table'];

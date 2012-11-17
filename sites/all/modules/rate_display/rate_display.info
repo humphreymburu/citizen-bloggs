@@ -1,0 +1,5 @@
+name = Rate Display
+description = This is a test module.
+core = 7.x
+; NEW LINE
+configure = admin/config/content/rate_display

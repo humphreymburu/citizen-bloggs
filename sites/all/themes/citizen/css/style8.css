@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.node-unpublished {
+    background-color: #FFF4F4;
+}
+.preview .node {
+    background-color: #FFFFEA;
+}
+td.revision-current {
+    background: none repeat scroll 0 0 #FFFFCC;
+}

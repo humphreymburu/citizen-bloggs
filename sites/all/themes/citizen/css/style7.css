@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#permissions td.module {
+    font-weight: bold;
+}
+#permissions td.permission {
+    padding-left: 1.5em;
+}
+#permissions tr.odd .form-item, #permissions tr.even .form-item {
+    white-space: normal;
+}
+#user-admin-settings fieldset .fieldset-description {
+    font-size: 0.85em;
+    padding-bottom: 0.5em;
+}
+#user-admin-roles td.edit-name {
+    clear: both;
+}
+#user-admin-roles .form-item-name {
+    float: left;
+    margin-right: 1em;
+}
+.password-strength {
+    float: right;
+    margin-top: 1.4em;
+    width: 17em;
+}
+.password-strength-title {
+    display: inline;
+}
+.password-strength-text {
+    float: right;
+    font-weight: bold;
+}
+.password-indicator {
+    background-color: #C4C4C4;
+    height: 0.3em;
+    width: 100%;
+}
+.password-indicator div {
+    background-color: #47C965;
+    height: 100%;
+    width: 0;
+}
+input.password-confirm, input.password-field {
+    margin-bottom: 0.4em;
+    width: 16em;
+}
+div.password-confirm {
+    float: right;
+    margin-top: 1.5em;
+    visibility: hidden;
+    width: 17em;
+}
+div.form-item div.password-suggestions {
+    border: 1px solid #B4B4B4;
+    margin: 0.7em 0;
+    padding: 0.2em 0.5em;
+    width: 38.5em;
+}
+div.password-suggestions ul {
+    margin-bottom: 0;
+}
+.confirm-parent, .password-parent {
+    clear: left;
+    margin: 0;
+    width: 36.3em;
+}
+.profile {
+    clear: both;
+    margin: 1em 0;
+}
+.profile .user-picture {
+    float: right;
+    margin: 0 1em 1em 0;
+}
+.profile h3 {
+    border-bottom: 1px solid #CCCCCC;
+}
+.profile dl {
+    margin: 0 0 1.5em;
+}
+.profile dt {
+    font-weight: bold;
+    margin: 0 0 0.2em;
+}
+.profile dd {
+    margin: 0 0 1em;
+}
