@@ -1,5 +1,6 @@
 <?php
-
+ini_set('display_errors',1);
+error_reporting(1);
 /**
  * @file
  * The PHP page that serves all page requests on a Drupal installation.
