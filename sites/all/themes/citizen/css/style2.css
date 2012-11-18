@@ -240,7 +240,7 @@ figure {
 	padding: 0;
 }
 
-#container #body .content .news h1 {
+.view-most-popular-haps h2 {
 	color: #95CAEA;
 	font-size: 18px;
 	margin: 0 0 8px;
@@ -849,4 +849,19 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 
 .region-news .views-field-field-picture3 .field-content a {
 	color: transparent;
+}
+
+.rate-widget ul li.first a {
+	background-image: url("../images/arrowup.jpg");
+	background-repeat: no-repeat;
+	display:inline-block;
+	height:15px;
+	width:15px;
+}
+.rate-widget ul li.last a {
+	background-image: url("../images/arrowdown.jpg");
+	background-repeat: no-repeat;
+	display:inline-block;
+	height:15px;
+	width:15px;
 }
