@@ -13,11 +13,10 @@ hr {
     border: 1px solid gray;
     height: 1px;
 }
-img {
+#logo img {
     border: 0 none;
-   margin-top: 20px;
-  
-}
+   margin-top: 10px;
+  }
 table {
     border-collapse: collapse;
 }
