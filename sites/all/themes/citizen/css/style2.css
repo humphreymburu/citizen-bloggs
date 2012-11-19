@@ -31,9 +31,9 @@ figure {
 	border-radius: 10px 10px 10px 10px;
 	display: block;
 	float: right;
-	height: 39px;
+	height: 44px;
 	margin-top: 24px;
-	width: 620px;
+	width: 606px;
 }
 
 .butons {
@@ -123,27 +123,6 @@ figure {
 	width: 962px;
 }
 
-#container #body {
-	background-color: #FFFFFF;
-	background-image: url("../images/logotype2.jpg");
-	background-position: 97% 97%;
-	background-repeat: no-repeat;
-	float: left;
-	padding: 12px 24px;
-	width: 940px;
-}
-
-.content {
-	color: #666666;
-	display: block;
-	float: left;
-	font-family: Calibri;
-	font-size: 15px;
-	height: auto;
-	line-height: 18px;
-	width: 715px;
-}
-
 .right {
 	display: block;
 	float: right;
@@ -151,11 +130,10 @@ figure {
 	width: 195px;
 }
 
-#container #body .content h1 {
-	color: #999999;
+.view-most-popular-haps h2{
+	color: #95CAEA;
+	font-size: 18px;
 	font-family: Calibri;
-	font-size: 22px;
-	font-style: normal;
 	font-weight: normal;
 	margin: 0 0 5px 0;
 	padding: 0;
@@ -205,7 +183,7 @@ figure {
 	padding: 0;
 }
 
-.newslink a {
+.rate-info, .rate-description {
 	background-color: #666666;
 	color: #FFFFFF;
 	float: left;
@@ -240,13 +218,6 @@ figure {
 	padding: 0;
 }
 
-.view-most-popular-haps h2 {
-	color: #95CAEA;
-	font-size: 18px;
-	margin: 0 0 8px;
-	padding: 0;
-	text-decoration: none;
-}
 
 #footer {
 	clear: both;
@@ -316,7 +287,7 @@ figure {
 	width: 194px;
 }
 
-.contentright {
+#region-sidebar-second div.view-content{
 	border-bottom: 1px solid #BEBDD1;
 	border-left: 1px solid #BEBDD1;
 	border-radius: 0 0 14px 0;
@@ -341,7 +312,7 @@ figure {
 	color: #65C0DF;
 }
 
-.tittle {
+#region-sidebar-second h2.block-title {
 	background-color: #59BADA;
 	border-radius: 0 14px 0 0;
 	color: #FFFFFF;
@@ -567,7 +538,7 @@ figure {
 	font-size: 16.5px;
 	font-style: normal;
 	font-weight: normal;
-	padding: 9px 11px 10px 12px;
+	padding: 8px 8px 10px 12px;
 	text-decoration: none;
 }
 
@@ -864,4 +835,22 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 	display:inline-block;
 	height:15px;
 	width:15px;
+}
+.field-submitted-by 
+	{
+	background-color: #666666;
+    color: #FFFFFF;
+    float: left;
+    margin-right: 8px;
+    text-align: center;
+    text-decoration: none;
+    padding:0 10px;
+}
+
+.view-most-popular-haps .views-row{
+	margin-bottom:70px;
+}	
+
+.view-most-popular-haps .views-row .group-middle a.username{
+	color:#fff;
 }
