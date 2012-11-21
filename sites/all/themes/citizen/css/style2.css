@@ -854,3 +854,19 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 .view-most-popular-haps .views-row .group-middle a.username{
 	color:#fff;
 }
+.zone-content{
+	background:#fff;
+	padding-top:20px;
+}
+
+.ds-3col > .group-left{
+	width:20%;
+}
+.ds-3col > .group-right{
+	width:5%;
+}
+
+.ds-3col > .group-middle {
+    float: left;
+    width:75%;
+}
