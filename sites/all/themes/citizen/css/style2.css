@@ -870,3 +870,71 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     float: left;
     width:75%;
 }
+#page-title{
+	border-bottom: 2px solid;
+    font-size: 36px;
+    font-family: Calibri;
+}
+#region-content ul.tabs{
+	background-image: url("../images/bmeain.jpg");
+    background-repeat: repeat-y;
+    border-radius: 155px 155px 10px 10px;
+    display: block;
+    float: right;
+    height: 41px;
+    margin-top: 24px;
+    width: 606px;
+}
+#region-content ul.tabs a{
+	color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 8px 8px 10px 26px;
+    text-decoration: none;
+}
+#privatemsg-list-form tr th{
+	background-color: #59BADA;
+    border-radius: 0 14px 0 0;
+    color: #FFFFFF;
+    float: inherit;
+    font-family: Calibri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    height: 20px;
+    padding: 4px 4px 4px 8px;
+    text-decoration: none;
+    width: 178px;
+}
+#block-system-main span.fieldset-legend a{
+	background-image: url("../images/events.png");
+	text-decoration: none;
+    background-position: 9% 50%;
+    background-repeat: no-repeat;
+    display: block;
+  	padding-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.view-content th.views-field{
+	background-color: #59BADA;
+    border-radius: 0 14px 0 0;
+    color: #FFFFFF;
+    float: inherit;
+    font-family: Calibri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    height: 20px;
+    padding: 4px 4px 4px 8px;
+    text-decoration: none;
+    width: 178px;
+}
+.view-content th.views-field a{
+	color: #FFFFFF;
+}
+
