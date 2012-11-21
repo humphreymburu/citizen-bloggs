@@ -28,11 +28,16 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.05em;
-  font-family: Georgia, 'Times New Roman', serif;
 }
 
 h1 {
-  font-size: 36px;
+	font-size: 36px;
+	color: #999999;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
 }
 
 h2 {

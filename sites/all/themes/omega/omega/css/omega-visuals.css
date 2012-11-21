@@ -125,19 +125,31 @@
 }
 
 table {
-  border: 1px solid #CCC;
   width: 100%;
 }
 
 thead th, th {
-  background: #f7f7f7;
+  background: #59BADA;
   border-bottom: 1px solid #ccc;
-  color: #333;
+  border-right: 1px solid #CCC;	
+  color: #fff;
+}
+
+table thead{
+	border:none;
+}
+table tbody{
+	  border: 1px solid #CCC;
 }
 
 td, th {
   padding: 4px 8px;
   vertical-align: middle;
+}
+
+thead th:last-child, th:last-child{
+    border-radius: 0 14px 0 0;
+	border-right:none;
 }
 
 th a, th a:link, th a:visited {
@@ -153,9 +165,8 @@ th a img {
 }
 
 th.active {
-  background: #DDD;
+  background: #59BADA;
   border-left: 1px solid #CCC;
-  border-right: 1px solid #CCC;
 }
 
 /* Odd & Even Styles */

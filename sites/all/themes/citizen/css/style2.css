@@ -872,7 +872,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 }
 #page-title{
 	border-bottom: 2px solid;
-    font-size: 36px;
+    font-size: 30px;
     font-family: Calibri;
 }
 #region-content ul.tabs{
@@ -896,20 +896,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     padding: 8px 8px 10px 26px;
     text-decoration: none;
 }
-#privatemsg-list-form tr th{
-	background-color: #59BADA;
-    border-radius: 0 14px 0 0;
-    color: #FFFFFF;
-    float: inherit;
-    font-family: Calibri;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    height: 20px;
-    padding: 4px 4px 4px 8px;
-    text-decoration: none;
-    width: 178px;
-}
+
 #block-system-main span.fieldset-legend a{
 	background-image: url("../images/events.png");
 	text-decoration: none;
@@ -920,21 +907,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     text-decoration: none;
     font-weight: bold;
 }
-.view-content th.views-field{
-	background-color: #59BADA;
-    border-radius: 0 14px 0 0;
-    color: #FFFFFF;
-    float: inherit;
-    font-family: Calibri;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    height: 20px;
-    padding: 4px 4px 4px 8px;
-    text-decoration: none;
-    width: 178px;
-}
-.view-content th.views-field a{
-	color: #FFFFFF;
-}
 
+#privatemsg-list-form .container-inline{
+	margin-bottom:10px;
+}
