@@ -57,7 +57,7 @@
 }
 
 img {
-  vertical-align: bottom;
+  vertical-align: inherit;
 }
 
 .field-label-inline .field-label,

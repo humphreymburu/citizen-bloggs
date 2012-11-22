@@ -40,6 +40,17 @@ h1 {
 	padding: 0;
 }
 
+div.panel-pane h2.pane-title a{
+	border-bottom: 2px solid;
+	font-family: Calibri;
+    font-size: 30px;
+    color: #999999;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+	text-decoration: none;
+	}
 h2 {
   font-size: 28px;
 }
