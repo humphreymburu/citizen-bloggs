@@ -14,4 +14,7 @@ jQuery(function(){
 			jQuery(".group-right .field-forum-reference a").html("<img src='/sites/all/themes/citizen/images/cd.png'>");
 		}	
 	});
+	
+	//removing the messages text from right menu
+	jQuery(".right-user-login ul li.first a").html("");
 });

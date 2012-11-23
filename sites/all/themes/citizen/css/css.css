@@ -177,31 +177,5 @@ html.js .js-hide {
 :first-child + html .clearfix {
     min-height: 1%;
 }
-.breadcrumb
-{
-float:left;
-}
-#breadcrumb ul
-	{
-	margin:0; padding:9px 0px;
-	}
-.breadcrumb ul li
-	{
-	display:inline;
-	margin:0 0 0 5px;
-	}
-.clearfix ul.breadcrumb li a
-{
-padding:7px 8px 7px 18px;
-background:#f5f5f5;
-border:#ebebeb solid 1px;
- border-style: solid;
- border-width: 1px;
- -moz-border-radius:5px;
- -webkit-border-radius:5px;
- border-radius:5px;
-color:#57b8d8;
-font-size:16px;
-font-family:"Myriad Pro";
-text-decoration:none;
-}
+
+

@@ -538,7 +538,7 @@ figure {
 	font-size: 16.5px;
 	font-style: normal;
 	font-weight: normal;
-	padding: 8px 8px 10px 12px;
+	padding: 8px 6px 10px 9px;
 	text-decoration: none;
 }
 
@@ -869,7 +869,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 .ds-3col > .group-middle {
     float: left;
     width:75%;
-}
+}	
 #page-title{
 	border-bottom: 2px solid;
     font-size: 30px;
@@ -910,4 +910,72 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 
 #privatemsg-list-form .container-inline{
 	margin-bottom:10px;
+}
+
+.zone-header-wrapper{
+	 margin:20px 0px;
+}
+.right-user-login{
+	float:right;
+}
+.right-user-login ul li{
+	display:inline;
+}
+
+.right-user-login ul li.first a{
+	background-image: url("../images/mailing.jpg");
+	padding: 7px 26px 9px;
+	background-repeat: no-repeat;
+	height:20px;
+}
+.right-user-login ul li.last a{
+    background-color: #666666;
+    background-image: url("../images/off.png");
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    border-radius: 7px 7px 7px 7px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding: 5px 26px 5px 13px;
+    text-align: center;
+    text-decoration: none;
+}
+.right-user-login ul li{
+	display:inline;
+}
+
+/**************************BREADCRUMB STYLE*******************/
+.breadcrumb {
+	float: left;
+	margin-bottom:0px;
+}
+
+.breadcrumb ul li {
+	display: inline;
+}
+
+ul.breadcrumb li {
+	padding: 7px 8px 7px 15px;
+	background: #f5f5f5;
+	border: #ebebeb solid 1px;
+	border-style: solid;
+	border-width: 1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: "Myriad Pro";
+}
+
+ul.breadcrumb li a {
+	color: #57b8d8;
+	text-decoration: none;
+	background-image: url("../images/li_icon.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 15px
 }
