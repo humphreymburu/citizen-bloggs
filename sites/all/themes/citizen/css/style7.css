@@ -78,6 +78,7 @@ div.password-suggestions ul {
 }
 .profile h3 {
     border-bottom: 1px solid #CCCCCC;
+    clear:both;
 }
 .profile dl {
     margin: 0 0 1.5em;
