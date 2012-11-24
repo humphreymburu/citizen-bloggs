@@ -912,16 +912,61 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     padding: 8px 8px 10px 26px;
     text-decoration: none;
 }
-
-#block-system-main span.fieldset-legend a{
-	background-image: url("../images/events.png");
-	text-decoration: none;
-    background-position: 9% 50%;
+#region-content ul.tabs a:hover,#region-content ul.tabs a:focus
+	{
+		text-decoration: underline;
+}
+#region-content ul.tabs li:nth-child(1) a{
+background-image: url("../images/inbox2.png");
+ background-repeat: no-repeat;
+ background-position: 97% 43%;
+   padding-right: 33px;
+   padding-right: 33px;
+    float: left;
+  }	
+  #region-content ul.tabs li:nth-child(2) a{
+background-image: url("../images/sent.png");
+ background-repeat: no-repeat;
+ background-position: 97% 43%;
+   padding-right: 33px;
+    float: left;
+  }	
+  #region-content ul.tabs li:nth-child(3) a{
+background-image: url("../images/allmail.png");
+ background-repeat: no-repeat;
+ background-position: 97% 43%;
+   padding-right: 33px;
+    float: left;
+  }	
+  #region-content ul.tabs li:nth-child(4) a{
+background-image: url("../images/user.png");
+ background-repeat: no-repeat;
+ background-position: 97% 43%;
+   padding-right: 33px;
+    float: left;
+  }	
+#privatemsg-list span.fieldset-legend a{
+	background-image: url("../images/filter.png");
+    background-position: 15% 85%;
     background-repeat: no-repeat;
     display: block;
-  	padding-left: 30px;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 46px;
     text-decoration: none;
-    font-weight: bold;
+    
+}
+ ul.action-links li a{
+	
+    display: block;
+    float: left;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 38px;
+    text-decoration: none;
+    
 }
 
 #privatemsg-list-form .container-inline{
@@ -995,3 +1040,7 @@ ul.breadcrumb li a {
 	background-position: right center;
 	padding-right: 15px
 }
+ul.breadcrumb li.last a{
+	background-image: none;
+}
+
