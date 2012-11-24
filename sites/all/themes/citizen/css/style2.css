@@ -950,8 +950,17 @@ background-image: url("../images/user.png");
     float: left;
   }	
 #privatemsg-list span.fieldset-legend a{
-	background-image: url("../images/filter.png");
-   background-position: 15% 85%;
+background-image: url("../images/filter.png");
+    background-position: 15% 85%;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 46px;
+    text-decoration: none;
+    
 
 }
  ul.action-links li a{
