@@ -879,6 +879,62 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 	text-decoration: underline;
 }
 
+.zone-footer div.block-inner
+{
+	float: left;
+	margin-right: 30px;
+	margin-top: 20px;
+	width: 200px;
+}
+.zone-footer div.block-inner div.view .views-table tr td
+{
+	background: none;
+	border: none;
+}
+.zone-footer div.block-inner div.view .views-table tr
+{
+	border: none;
+	background: none;
+}
+.zone-footer div.block-inner div.view table tbody
+{
+	border:none;
+}
+
+.zone-footer div.block-inner .block-title
+{
+	background-image: url("../images/bmeain.jpg");
+	padding: 0 5px;
+	border-radius: 10px 10px 0 0;
+	color: #FFFFFF;
+	font-family: Calibri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    
+    
+}
+.zone-footer div.block-inner .item-list
+{
+	border: 1px solid #7ED0E8;
+	border-radius: 0 0 10px 10px;
+}
+.zone-footer div.block-inner .item-list ul
+{
+	margin: 0px;
+}
+.zone-footer .region-footer-first
+{
+	padding-left: 22px;
+}
+.zone-footer .view-content
+{
+	
+	border: 1px solid #7ED0E8;
+	border-radius: 0 0 10px 10px;
+	padding: 5px;
+}
+
 .inside .pane-content ul.menu
 {
 	background-image: url("../images/bmeain.jpg");
