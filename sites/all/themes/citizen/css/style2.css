@@ -857,7 +857,44 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     padding:0 10px;
 }
 
+.pane-content ul.menu li
+{
+	display: inline;
+}
+.inside .pane-content ul.menu li a
 
+{
+	color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 8px 8px 10px 26px;
+    text-decoration: none;
+}
+.inside .pane-content ul.menu li a:hover
+{
+	text-decoration: underline;
+}
+
+.inside .pane-content ul.menu
+{
+	background-image: url("../images/bmeain.jpg");
+    background-repeat: repeat-y;
+    border-radius: 155px 155px 10px 10px;
+    display: block;
+    float: right;
+    height: 41px;
+    margin-top: 24px;
+    width: 606px;
+}
+
+.panels-flexible-region-6-3rd_menu {
+    float: right;
+     width: 606px;
+}
 
 .view-most-popular-haps .views-row{
 	margin-bottom:70px;
