@@ -857,27 +857,6 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     padding:0 10px;
 }
 
-.pane-content ul.menu li
-{
-	display: inline;
-}
-.inside .pane-content ul.menu li a
-
-{
-	color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Calibri;
-    font-size: 16.5px;
-    font-style: normal;
-    font-weight: normal;
-    padding: 8px 8px 10px 26px;
-    text-decoration: none;
-}
-.inside .pane-content ul.menu li a:hover
-{
-	text-decoration: underline;
-}
 
 .zone-footer div.block-inner
 {
@@ -935,7 +914,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 	padding: 5px;
 }
 
-.inside .pane-content ul.menu
+.inside .pane-menu-menu-calendar-3rd-menu .pane-content ul.menu
 {
 	background-image: url("../images/bmeain.jpg");
     background-repeat: repeat-y;
@@ -946,6 +925,78 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     margin-top: 24px;
     width: 606px;
 }
+.inside .pane-menu-menu-calendar-3rd-menu .pane-content ul.menu li
+{
+	display: inline;
+}
+.pane-content  ul.menu
+{
+	background-image: url("../images/drop.png");
+	background-repeat: no-repeat;
+	 height: 27px;
+    width: 131px;
+    
+    
+}
+.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu:hover li
+{
+	background: #fff;
+	display: block;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+    width: 120px;
+    position: relative;
+   top: 26px;
+   left: 4px;
+   z-index: 200;
+   padding-left: 5px;
+  
+}
+
+.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu li a
+{
+	color: #000;
+	text-decoration: none;
+}
+.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu li:hover a
+{
+	color: #fff;
+	cursor: default;
+	
+}
+.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu li:hover
+{
+	background: #3399FF;
+	
+}
+.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu li a:hover
+{
+	text-decoration: none;
+}
+
+.pane-content  ul.menu li
+{
+	display: none;
+}
+
+.inside .pane-menu-menu-calendar-3rd-menu .pane-content ul.menu li a
+
+{
+	color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 8px 8px 10px 26px;
+    text-decoration: none;
+}
+.inside .pane-content ul.menu li a:hover
+{
+	text-decoration: underline;
+}
+
 
 .panels-flexible-region-6-3rd_menu {
     float: right;
