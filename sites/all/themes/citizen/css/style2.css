@@ -998,6 +998,66 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 }
 
 
+.block-menu-single-discussion-3rd-menu ul.menu
+{
+	background-image: url("../images/bmeain.jpg");
+    background-repeat: repeat-y;
+    border-radius: 155px 155px 10px 10px;
+    display: block;
+    float: right;
+    height: 41px;
+    margin-top: 24px;
+    width: 606px;
+}
+.block-menu-single-discussion-3rd-menu ul.menu li
+{
+	display: inline;
+}
+
+.block-menu-single-discussion-3rd-menu ul.menu li a
+{
+	display: inline-block;
+	 color: #FFFFFF;
+    cursor: pointer;
+    font-family: Calibri;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 8px 8px 10px 26px;
+    text-decoration: none
+}
+
+.block-menu-singe-vote-3rd-menu ul.menu
+{
+	background-image: url("../images/bmeain.jpg");
+    background-repeat: repeat-y;
+    border-radius: 155px 155px 10px 10px;
+    display: block;
+    float: right;
+    height: 41px;
+    margin-top: 24px;
+    width: 606px;
+    margin-bottom: 25px;
+}
+
+.block-menu-singe-vote-3rd-menu ul.menu li
+{
+	display: inline;
+}
+
+.block-menu-singe-vote-3rd-menu ul.menu li a
+{
+	display: inline-block;
+	 color: #FFFFFF;
+    cursor: pointer;
+    font-family: Calibri;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 8px 8px 10px 26px;
+    text-decoration: none
+}
+
 .panels-flexible-region-6-3rd_menu {
     float: right;
      width: 606px;
