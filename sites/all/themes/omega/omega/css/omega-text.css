@@ -2,9 +2,10 @@ body {
   font: 13px/1.5 Verdana, Helvetica, Arial, sans-serif;
 }
 
+a{text-decoration: none}
+
 a:link, a:visited {
   color: #0062A0;
-  text-decoration: underline;
 }
 
 a:hover {
@@ -51,8 +52,13 @@ div.panel-pane h2.pane-title a{
     padding: 0;
 	text-decoration: none;
 	}
+	
 h2 {
   font-size: 28px;
+	color: #999999;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0;
 }
 
 /* Make site titles the same size if it's an H1 (home) or H2 (internal) */

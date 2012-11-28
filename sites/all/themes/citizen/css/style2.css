@@ -922,7 +922,6 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     display: block;
     float: right;
     height: 41px;
-    margin-top: 24px;
     width: 606px;
 }
 .inside .pane-menu-menu-calendar-3rd-menu .pane-content ul.menu li
@@ -1006,7 +1005,6 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     display: block;
     float: right;
     height: 41px;
-    margin-top: 24px;
     width: 606px;
 }
 .block-menu-single-discussion-3rd-menu ul.menu li
@@ -1106,6 +1104,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     height: 41px;
     margin-top: 24px;
     width: 606px;
+	display:none;
 }
 #region-content ul.tabs a{
 	color: #FFFFFF;
@@ -1254,3 +1253,45 @@ ul.breadcrumb li.last a{
 	background-image: none;
 }
 
+.forum-comments-header{
+	overflow:auto;
+    background: none repeat scroll 0 0 #59BADA;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    color: #FFFFFF;
+ 	border-radius: 0 14px 0 0;
+}
+.forum-comments-header .username-header{
+	float:left;
+	width:150px;
+	border-right:1px white solid;
+	padding-left:10px
+}
+
+.forum-comments-header .text-reply{
+	float:left;
+	padding-left:10px;
+}
+
+.forum-comments-header .actions-on-comment{
+	float:right;
+	padding-right:10px;
+}
+
+.clear {
+	clear:both
+}
+.forum-post-links{
+	line-height: normal;
+	margin:0
+}
+.forum-post-links ul{
+	margin-bottom:10px;
+}
+
+#forum-topic-header{
+	margin:10px 0px 10px 5px; 
+}
+#forum-topic-header .last-post-link{
+	text-transform: uppercase;
+}
