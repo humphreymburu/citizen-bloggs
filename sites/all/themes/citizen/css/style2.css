@@ -922,62 +922,12 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     display: block;
     float: right;
     height: 41px;
-    width: 606px;
+  
 }
 .inside .pane-menu-menu-calendar-3rd-menu .pane-content ul.menu li
 {
 	display: inline;
 }
-.pane-content  ul.menu
-{
-	background-image: url("../images/drop.png");
-	background-repeat: no-repeat;
-	 height: 27px;
-    width: 131px;
-    
-    
-}
-.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu:hover li
-{
-	background: #fff;
-	display: block;
-	border-right: 1px solid #cccccc;
-	border-left: 1px solid #cccccc;
-    width: 120px;
-    position: relative;
-   top: 26px;
-   left: 4px;
-   z-index: 200;
-   padding-left: 5px;
-  
-}
-
-.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu li a
-{
-	color: #000;
-	text-decoration: none;
-}
-.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu li:hover a
-{
-	color: #fff;
-	cursor: default;
-	
-}
-.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu li:hover
-{
-	background: #3399FF;
-	
-}
-.inside .pane-menu-menu-calendar-time-period .pane-content  ul.menu li a:hover
-{
-	text-decoration: none;
-}
-
-.pane-content  ul.menu li
-{
-	display: none;
-}
-
 .inside .pane-menu-menu-calendar-3rd-menu .pane-content ul.menu li a
 
 {
@@ -988,9 +938,42 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     font-size: 16.5px;
     font-style: normal;
     font-weight: normal;
-    padding: 8px 8px 10px 26px;
+    padding: 10px 30px 10px 30px;
     text-decoration: none;
 }
+.pane-menu-menu-profile-page-3rd-menu .pane-content ul.menu
+{
+	background-image: url("../images/bmeain.jpg");
+    background-repeat: repeat-y;
+    border-radius: 155px 155px 10px 10px;
+    display: block;
+    float: right;
+    height: 41px;
+	
+}
+.pane-menu-menu-profile-page-3rd-menu .pane-content ul.menu li
+{
+	display: inline;
+}
+.pane-menu-menu-profile-page-3rd-menu .pane-content ul.menu li a
+{
+	color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+
+.views-row .ds-3col
+{
+	border: 1px solid #59BADA;
+	border-radius: 10px 10px 10px 10px;
+}
+
 .inside .pane-content ul.menu li a:hover
 {
 	text-decoration: underline;
@@ -1005,7 +988,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     display: block;
     float: right;
     height: 41px;
-    width: 606px;
+   
 }
 .block-menu-single-discussion-3rd-menu ul.menu li
 {
@@ -1021,7 +1004,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     font-size: 16.5px;
     font-style: normal;
     font-weight: normal;
-    padding: 8px 8px 10px 26px;
+    padding: 10px 30px 10px 30px;
     text-decoration: none
 }
 
@@ -1033,8 +1016,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     display: block;
     float: right;
     height: 41px;
-    margin-top: 24px;
-    width: 606px;
+    margin-top: 24px;L
     margin-bottom: 25px;
 }
 
@@ -1052,8 +1034,28 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     font-size: 16.5px;
     font-style: normal;
     font-weight: normal;
-    padding: 8px 8px 10px 26px;
+    padding: 10px 30px 10px 30px;
     text-decoration: none
+}
+.comment-wrapper .forum-post .forum-post-wrapper
+{
+	border: 1px solid #59BADA;
+	 border-radius: 0 0 10px 10px;
+}
+.comment-wrapper .forum-post .forum-post-wrapper .forum-post-panel-sub
+{
+	
+	min-height: 75px;
+    padding-left: 10px;
+   
+    
+}
+
+.comment-wrapper .forum-post .forum-post-wrapper .forum-post-panel-main
+{
+	border-left: 1px solid #59BADA;
+	padding-right: 10px;
+	
 }
 
 .panels-flexible-region-6-3rd_menu {
@@ -1062,10 +1064,10 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 }
 
 .view-most-popular-haps .views-row{
-	margin-bottom:70px;
+	margin-bottom:40px;
 }	
 .view-my-haps .views-row{
-	margin-bottom:70px;
+	margin-bottom:40px;
 }	
 
 .view-most-popular-haps .views-row .group-middle a.username{
@@ -1081,6 +1083,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 
 .ds-3col > .group-left{
 	width:20%;
+	margin: 5px 5px;
 }
 .ds-3col > .group-right{
 	width:5%;
@@ -1089,6 +1092,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 .ds-3col > .group-middle {
     float: left;
     width:75%;
+    margin: 5px 5px;
 }	
 #page-title{
 	border-bottom: 2px solid;
@@ -1106,6 +1110,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     width: 606px;
 	display:none;
 }
+
 #region-content ul.tabs a{
 	color: #FFFFFF;
     cursor: pointer;
@@ -1259,13 +1264,14 @@ ul.breadcrumb li.last a{
     border-bottom: 1px solid #CCCCCC;
     border-right: 1px solid #CCCCCC;
     color: #FFFFFF;
- 	border-radius: 0 14px 0 0;
+ 	border-radius: 10px 10px 0 0;
 }
 .forum-comments-header .username-header{
 	float:left;
-	width:150px;
+	width:141px;
 	border-right:1px white solid;
-	padding-left:10px
+	padding-left:10px;
+	
 }
 
 .forum-comments-header .text-reply{
