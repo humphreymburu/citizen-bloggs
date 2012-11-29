@@ -1295,3 +1295,25 @@ ul.breadcrumb li.last a{
 #forum-topic-header .last-post-link{
 	text-transform: uppercase;
 }
+
+.node-advpoll form[id^='advpoll-form'], .node-advpoll .poll{
+	width:482px;
+	float:left;
+	border-left:1px #D3D3D3 solid;
+	border-top:1px #D3D3D3 solid;
+	border-bottom:1px #D3D3D3 solid;
+	padding:10px;
+}
+.node-advpoll .vote-right{
+    float: right;
+    padding: 10px;
+    width: 175px;
+	border:1px #D3D3D3 solid;
+}
+
+.node-advpoll .vote-metrices{
+	text-transform: uppercase;
+}
+.node-advpoll .field-background{
+	margin-bottom:15px;
+}

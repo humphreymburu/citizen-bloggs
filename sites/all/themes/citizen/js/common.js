@@ -17,4 +17,5 @@ jQuery(function(){
 	
 	//removing the messages text from right menu
 	jQuery(".right-user-login ul li.first a").html("");
+	
 });
