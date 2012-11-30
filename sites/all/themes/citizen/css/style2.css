@@ -33,7 +33,11 @@ figure {
 	float: right;
 	height: 44px;
 	margin-top: 24px;
-	width: 606px;
+	padding: 0 15px;
+}
+.calendar-action-menu select
+{
+	 width: 120px;
 }
 
 .butons {
@@ -1089,6 +1093,23 @@ ul.lavaLampNoImage li.menu-218 a:hover{
    
     
 }
+.forum-topic-header
+{
+	border: 1px solid #59BADA;
+	 border-radius: 10px 10px 0 0;
+	 margin-botoom: 0px;
+}
+.forum-post-wrapper
+{
+	border: 1px solid #59BADA;
+	 border-radius: 0 0 10px 10px;
+	 margin-bottom: 10px;
+}
+.forum-post-wrapper .forum-post-panel-main
+{
+	border-left: 1px solid #59BADA;
+	 margin-left: 155px;
+}
 
 .comment-wrapper .forum-post .forum-post-wrapper .forum-post-panel-main
 {
@@ -1096,6 +1117,22 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 	padding-right: 10px;
 	
 }
+.panels-flexible-4 .panels-flexible-4-inside .pane-title
+{
+	background-color: #59BADA;
+    border-radius: 0 14px 0 0;
+    color: #FFFFFF;
+    
+    font-family: Calibri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    height: 20px;
+    padding: 4px 4px 4px 12px;
+    text-decoration: none;
+    width: 178px;
+}
+
 
 .panels-flexible-region-6-3rd_menu {
     float: right;
@@ -1126,11 +1163,12 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 }
 .ds-3col > .group-right{
 	width:5%;
+	padding: 5px;
 }
 
 .ds-3col > .group-middle {
     float: left;
-    width:75%;
+    width:70%;
     margin: 5px 5px;
 }	
 #page-title{
@@ -1334,11 +1372,13 @@ ul.breadcrumb li.last a{
 	margin-bottom:10px;
 }
 
-#forum-topic-header{
-	margin:10px 0px 10px 5px; 
-}
+
 #forum-topic-header .last-post-link{
 	text-transform: uppercase;
+	margin:0px;
+	border-right: 1px solid #59BADA;
+	padding: 5px 5px 0;
+	height: 26px;
 }
 
 .node-advpoll form[id^='advpoll-form'], .node-advpoll .poll{
