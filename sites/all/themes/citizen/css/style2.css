@@ -783,7 +783,32 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 .views-field-field-image-news .field-content {
 	float: left;
 }
+.block-menu-menu-messages-3rd-menu ul.menu
+{
+	background-image: url("../images/bmeain.jpg");
+    background-repeat: repeat-y;
+    border-radius: 155px 155px 10px 10px;
+    display: block;
+    float: right;
+    height: 41px;
+}
+.block-menu-menu-messages-3rd-menu ul.menu li
+{
+	display: inline;
+}
 
+.block-menu-menu-messages-3rd-menu ul.menu li a
+{
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px 30px;
+    text-decoration: none;
+}
 .region-news .views-field-body {
 	float: left;
 	margin-left: 15px;
