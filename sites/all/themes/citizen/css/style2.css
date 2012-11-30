@@ -33,7 +33,11 @@ figure {
 	float: right;
 	height: 44px;
 	margin-top: 24px;
-	width: 606px;
+	padding: 0 15px;
+}
+.calendar-action-menu select
+{
+	 width: 120px;
 }
 
 .butons {
