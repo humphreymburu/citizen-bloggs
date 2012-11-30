@@ -54,7 +54,7 @@ div.panel-pane h2.pane-title a{
 	}
 	
 h2 {
-  font-size: 28px;
+ 	font-size: 28px;
 	color: #999999;
     font-style: normal;
     font-weight: normal;
@@ -78,19 +78,33 @@ h2.node-title {
 }
 
 h3 {
-  font-size: 21px;
+	font-size: 21px;
+	color: #999999;
+	font-style: normal;
+	font-weight: normal;	
 }
 
 h4 {
   font-size: 19px;
+	color: #999999;
+	font-style: normal;
+	font-weight: normal;	
 }
 
 h5 {
   font-size: 17px;
+	color: #999999;
+	font-style: normal;
+	font-weight: normal;	
+
 }
 
 h6 {
   font-size: 15px;
+	color: #999999;
+	font-style: normal;
+	font-weight: normal;	
+
 }
 
 ol {
