@@ -328,7 +328,7 @@ figure {
 
 #region-sidebar-second h2.block-title {
 	background-color: #59BADA;
-	border-radius: 0 14px 0 0;
+	border-radius: 14px 14px 0 0;
 	color: #FFFFFF;
 	float: left;
 	font-family: Calibri;
@@ -344,7 +344,7 @@ figure {
 .profile-panel h2.pane-title,
 .views-field-picture .views-label{
 	background-color: #59BADA;
-	border-radius: 0 14px 0 0;
+	border-radius: 14px 14px 0 0;
 	color: #FFFFFF;
 	font-family: Calibri;
 	font-size: 14px;
@@ -366,7 +366,7 @@ figure {
 {
     border-bottom: 1px solid #BEBDD1;
     border-left: 1px solid #BEBDD1;
-    border-radius: 0 0 14px 0; 
+    border-radius: 0 0 14px 14px; 
     border-right: 1px solid #BEBDD1;
     color: #666666;
     font-family: Calibri;
@@ -377,6 +377,13 @@ figure {
 
 .pane-my-events-list thead{
 	display:none;
+}
+
+.profile-panel .add-new-content .pane-content p{
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    width: 47%;
 }
 
 .profile-panel .view-my-events-list table{margin:0}
