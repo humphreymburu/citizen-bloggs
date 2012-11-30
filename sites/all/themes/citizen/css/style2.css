@@ -341,7 +341,8 @@ figure {
 	width: 178px;
 }
 
-.profile-panel h2.pane-title{
+.profile-panel h2.pane-title,
+.views-field-picture .views-label{
 	background-color: #59BADA;
 	border-radius: 0 14px 0 0;
 	color: #FFFFFF;
@@ -354,15 +355,20 @@ figure {
 	margin:0px;
 }
 
+.view-current-user-image span.views-label{
+	display:inline-block;
+	width:90%;
+} 
+
 .profile-panel .view-users-group-list .view-content,
-.profile-panel .add-new-content .pane-content
+.profile-panel .add-new-content .pane-content,
+.views-field-picture .field-content
 {
     border-bottom: 1px solid #BEBDD1;
     border-left: 1px solid #BEBDD1;
-    border-radius: 0 0 14px 0;
+    border-radius: 0 0 14px 0; 
     border-right: 1px solid #BEBDD1;
     color: #666666;
-    float: left;
     font-family: Calibri;
     font-size: 15px;
     margin-bottom: 12px;
@@ -378,7 +384,10 @@ figure {
 	bakground:none !important;
 	border:none;
 }
-
+.pane-message-example .user-picture img{
+	width:30px;
+	height:30px;
+}
 
 .contentright ul {
 	float: left;
