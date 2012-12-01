@@ -351,14 +351,14 @@ settings[alpha_region_footer_second_css] = ''
 version = '1.x'
 
 
-    scripts[] = js/drupal.js
-  scripts[] = joomforest.js
-scripts[] = js/jquery.cycle.all.js
-scripts[] = js/jquery.js
-scripts[] = js/jquery.once.js
-scripts[] = js/l.js
-scripts[] = js/menu.js
-scripts[] = js/red.js
-scripts[] = js/side_menu.js
-scripts[] = js/views_slideshow.js
-scripts[] = js/views_slideshow_cycle.js
+;scripts[] = js/drupal.js
+;scripts[] = joomforest.js
+;scripts[] = js/jquery.cycle.all.js
+;scripts[] = js/jquery.js
+;scripts[] = js/jquery.once.js
+;scripts[] = js/l.js
+;scripts[] = js/menu.js
+;scripts[] = js/red.js
+;scripts[] = js/side_menu.js
+;scripts[] = js/views_slideshow.js
+;scripts[] = js/views_slideshow_cycle.js
