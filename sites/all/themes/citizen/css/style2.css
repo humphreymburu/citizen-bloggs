@@ -1278,16 +1278,16 @@ background-image: url("../images/user.png");
   }	
 #privatemsg-list span.fieldset-legend a{
 background-image: url("../images/filter.png");
-    background-position: 15% 85%;
+    background-position: 0% 85%;
     background-repeat: no-repeat;
     display: block;
     float: left;
     font-family: calibri;
     font-size: 16px;
     font-weight: normal;
-    padding-left: 46px;
+    padding-left: 30px;
     text-decoration: none;
-    
+    margin-top: 15px;
 
 }
  ul.action-links li a{

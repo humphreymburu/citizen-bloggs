@@ -120,7 +120,7 @@ input.form-checkbox, input.form-radio {
 }
 html.js fieldset.collapsible .fieldset-legend {
     background: url("../../misc/menu-expanded.png") no-repeat scroll 5px 65% transparent;
-    padding-left: 15px;
+   
 }
 html.js fieldset.collapsed .fieldset-legend {
     background-image: url("../../misc/menu-collapsed.png");
