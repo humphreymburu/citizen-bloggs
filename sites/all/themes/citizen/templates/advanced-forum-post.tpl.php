@@ -88,7 +88,8 @@
       </div>
       
       <div class="forum-post-links">
-	   		<?php print render($content['links']); ?>
+	   	<?php 
+	   		print render($content['links']); ?>
        </div>
 
       <?php if (!empty($post_edited)): ?>

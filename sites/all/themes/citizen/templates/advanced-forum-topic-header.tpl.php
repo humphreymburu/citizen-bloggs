@@ -22,7 +22,7 @@
     <?php endif; ?>
 
   <div class="topic-post-count">
-  <?php print $total_posts_count; ?> / <?php print t('!new new', array('!new' => $new_posts_count)); ?>
+   <?php print $total_posts_count; ?> / <?php print t('!new new', array('!new' => $new_posts_count)); ?>
   </div>
 
   <?php if (!empty($reply_link)): ?>

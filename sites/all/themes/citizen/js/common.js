@@ -24,4 +24,17 @@ jQuery(function(){
 		jQuery(".action-links").remove();
 	}	
 	
+	jQuery(".topic-post-count").prepend(jQuery('.statistics_counter').html()+",");
+	jQuery('.statistics_counter').remove();
+	
+	jQuery(".forum-post-links li.post-edit a").html("<img src='/sites/all/themes/citizen/images/quick.png'>");
+	jQuery(".forum-post-links li.post-delete a").html("<img src='/sites/all/themes/citizen/images/delete.png'>");
+	jQuery(".forum-post-links li.comment-add a").html("<img src='/sites/all/themes/citizen/images/report.png'>");
+
+	jQuery(".forum-post-links li.comment-edit a").html("<img src='/sites/all/themes/citizen/images/quick.png'>");
+	jQuery(".forum-post-links li.comment-delete a").html("<img src='/sites/all/themes/citizen/images/delete.png'>");
+	jQuery(".forum-post-links li.comment-reply  a").html("<img src='/sites/all/themes/citizen/images/report.png'>");
+	
+	
+	
 });
