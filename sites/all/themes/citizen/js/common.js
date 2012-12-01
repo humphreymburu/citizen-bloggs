@@ -18,4 +18,10 @@ jQuery(function(){
 	//removing the messages text from right menu
 	jQuery(".right-user-login ul li.first a").html("");
 	
+	if(jQuery("#block-menu-menu-messages-3rd-menu").hasClass("block-menu-menu-messages-3rd-menu"))
+	{
+		jQuery(".action-links").before(jQuery("#block-menu-menu-messages-3rd-menu"));
+		jQuery(".action-links").remove();
+	}	
+	
 });
