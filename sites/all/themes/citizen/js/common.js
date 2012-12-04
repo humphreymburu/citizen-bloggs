@@ -23,6 +23,11 @@ jQuery(function(){
 		jQuery(".action-links").before(jQuery("#block-menu-menu-messages-3rd-menu"));
 		jQuery(".action-links").remove();
 	}	
+	if(jQuery("#block-menu-menu-messages-3rd-menu").hasClass("block-menu-menu-messages-3rd-menu"))
+	{
+		jQuery(".form-item-recipient").before(jQuery("#block-menu-menu-messages-3rd-menu"));
+		
+	}
 	
 	jQuery(".topic-post-count").prepend(jQuery('.statistics_counter').html()+",");
 	jQuery('.statistics_counter').remove();

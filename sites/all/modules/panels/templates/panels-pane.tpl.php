@@ -44,7 +44,8 @@
   <?php if ($links): ?>
     <div class="links">
       <?php print $links; ?>
-    </div>
+       </div>
+  
   <?php endif; ?>
 
   <?php if ($more): ?>

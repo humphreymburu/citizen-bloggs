@@ -91,6 +91,16 @@ input.form-checkbox, input.form-radio {
     margin-bottom: 0;
     margin-top: 0;
 }
+.filter-wrapper, .wysiwyg-toggle-wrapper, #edit-token
+{
+	display: none;
+}
+
+
+
+
+
+
 .more-link {
     text-align: right;
 }
@@ -104,13 +114,31 @@ input.form-checkbox, input.form-radio {
 .item-list .pager {
     clear: both;
     text-align: center;
+    background: none repeat scroll 0 0 #59BADA;
+    
 }
 .item-list .pager li {
     background-image: none;
     display: inline;
     list-style-type: none;
-    padding: 0.5em;
-}
+  }
+  
+  .item-list .pager li a
+  {
+  width:auto;
+  padding: 5px;
+  }
+  .pager li.pager-next
+  {
+  position: absolute;
+    right: 41px;
+  }
+
+ #searchquery
+ {
+ height:auto;
+ }
+
 .pager-current {
     font-weight: bold;
 }

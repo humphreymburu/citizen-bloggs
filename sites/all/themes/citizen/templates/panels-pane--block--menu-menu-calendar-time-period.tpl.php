@@ -54,11 +54,14 @@
 	  ?>
   </select>
   </div>
+  <div>
+  <input id="btnGo" type="button" value="Go" >
+  </div>
 
   <script type="text/javascript">
-		$("#action-menu").change(function(){
+		$("#btnGo").click(function(){
 
-			window.location.href = "/"+$(this).val() 	
+			window.location.href = "/"+$('#action-menu').val() 	;
 			
 		});
   </script>

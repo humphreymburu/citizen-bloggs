@@ -381,9 +381,11 @@ figure {
 
 .profile-panel .add-new-content .pane-content p{
     display: inline-block;
-    margin-top: 5px;
     text-align: center;
-    width: 47%;
+    width: 45%;
+    border: 1px solid #59BADA;
+    border-radius: 10px;
+    margin-bottom: 8px;
 }
 
 .profile-panel .view-my-events-list table{margin:0}
@@ -783,6 +785,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 .views-field-field-image-news .field-content {
 	float: left;
 }
+
 .block-menu-menu-messages-3rd-menu ul.menu
 {
 	background-image: url("../images/bmeain.jpg");
@@ -790,7 +793,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     border-radius: 155px 155px 10px 10px;
     display: block;
     float: right;
-    height: 41px;
+    height: 30px;
 }
 .block-menu-menu-messages-3rd-menu ul.menu li
 {
@@ -803,10 +806,10 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     cursor: pointer;
     display: inline-block;
     font-family: Calibri;
-    font-size: 16.5px;
+    font-size: 14px;
     font-style: normal;
     font-weight: normal;
-    padding: 8px 16px;
+    padding: 5px 16px;
     text-decoration: none;
 }
 .region-news .views-field-body {
@@ -1018,7 +1021,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     border-radius: 155px 155px 10px 10px;
     display: block;
     float: right;
-    height: 41px;
+    height: 30px;
   
 }
 .inside .pane-menu-menu-calendar-3rd-menu .pane-content ul.menu li
@@ -1032,10 +1035,10 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     cursor: pointer;
     display: inline-block;
     font-family: Calibri;
-    font-size: 16.5px;
+    font-size: 14px;
     font-style: normal;
     font-weight: normal;
-    padding: 10px 30px 10px 30px;
+    padding: 5px 30px;
     text-decoration: none;
 }
 .pane-menu-menu-profile-page-3rd-menu .pane-content ul.menu
@@ -1045,8 +1048,8 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     border-radius: 155px 155px 10px 10px;
     display: block;
     float: right;
-    height: 41px;
-	
+    height: 30px;
+	margin-bottom: 20px;
 }
 .pane-menu-menu-profile-page-3rd-menu .pane-content ul.menu li
 {
@@ -1058,10 +1061,10 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     cursor: pointer;
     display: inline-block;
     font-family: Calibri;
-    font-size: 16.5px;
+    font-size: 14px;
     font-style: normal;
     font-weight: normal;
-    padding: 10px 30px 10px 30px;
+    padding: 5px 30px;
     text-decoration: none;
 }
 
@@ -1084,7 +1087,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     border-radius: 155px 155px 10px 10px;
     display: block;
     float: right;
-    height: 41px;
+    height: 30px;
    
 }
 .block-menu-single-discussion-3rd-menu ul.menu li
@@ -1098,10 +1101,10 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 	 color: #FFFFFF;
     cursor: pointer;
     font-family: Calibri;
-    font-size: 16.5px;
+    font-size: 14px;
     font-style: normal;
     font-weight: normal;
-    padding: 10px 30px 10px 30px;
+    padding: 5px 30px; 
     text-decoration: none
 }
 
@@ -1112,8 +1115,8 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     border-radius: 155px 155px 10px 10px;
     display: block;
     float: right;
-    height: 41px;
-    margin-top: 24px;L
+    height: 30px;
+    margin-top: 24px;
     margin-bottom: 25px;
 }
 
@@ -1128,10 +1131,10 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 	 color: #FFFFFF;
     cursor: pointer;
     font-family: Calibri;
-    font-size: 16.5px;
+    font-size: 14px;
     font-style: normal;
     font-weight: normal;
-    padding: 10px 30px 10px 30px;
+    padding: 5px 30px;
     text-decoration: none
 }
 .comment-wrapper .forum-post .forum-post-wrapper
@@ -1149,14 +1152,14 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 }
 .forum-topic-header
 {
-	border: 1px solid #59BADA;
-	 border-radius: 10px 10px 0 0;
-	 margin-botoom: 0px;
+	
+	
 }
+
 .forum-post-wrapper
 {
 	border: 1px solid #59BADA;
-	 border-radius: 0 0 10px 10px;
+	 border-radius: 10px 10px 10px 10px;
 	 margin-bottom: 10px;
 }
 .forum-post-wrapper .forum-post-panel-main
@@ -1371,7 +1374,12 @@ ul.breadcrumb li a {
 	background-image: url("../images/li_icon.jpg");
 	background-repeat: no-repeat;
 	background-position: right center;
-	padding-right: 15px
+	padding-right: 15px;
+	font-family: Calibri;
+}
+table thead
+{
+	border-left: 1px solid #CCCCCC;
 }
 ul.breadcrumb li.last a{
 	background-image: none;
@@ -1418,7 +1426,6 @@ ul.breadcrumb li.last a{
 #forum-topic-header .last-post-link{
 	text-transform: uppercase;
 	margin:0px;
-	border-right: 1px solid #59BADA;
 	padding: 5px 5px 0;
 	height: 26px;
 }
