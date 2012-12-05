@@ -40,7 +40,7 @@
  
   <div class="calendar-action-menu">
   <select id="action-menu">
-  <option>Actions</option>
+  <option value="">Actions</option>
   <?php 
   
   //dpr($content);
@@ -54,16 +54,22 @@
 	  ?>
   </select>
   </div>
-  <div>
+  <div class="calendar-action-btnGo">
   <input id="btnGo" type="button" value="Go" >
   </div>
 
   <script type="text/javascript">
-		$("#btnGo").click(function(){
 
-			window.location.href = "/"+$('#action-menu').val() 	;
-			
+		jQuery("#btnGo").click(function(){
+
+			if(jQuery('#action-menu').val() == "")
+			{
+				alert("Plase select at least one action");
+				return;
+			}		
+			window.location.href = "/"+jQuery('#action-menu').val() 	;
 		});
+		
   </script>
   
   <?php if ($links): ?>

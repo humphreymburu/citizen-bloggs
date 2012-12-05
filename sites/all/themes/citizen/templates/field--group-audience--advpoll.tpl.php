@@ -7,7 +7,7 @@
  */
 ?>
 <div class="vote-right">
-<div class="vote-metrices">Vote Metrics</div>
+<div class="vote-metrices">Vote Details</div>
 <?php if ($element['#label_display'] == 'inline'): ?>
   <span class="field-label"<?php print $title_attributes; ?>>
     <?php print $label; ?>:
