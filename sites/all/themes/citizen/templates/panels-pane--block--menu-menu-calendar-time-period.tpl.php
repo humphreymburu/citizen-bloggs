@@ -54,7 +54,7 @@
 	  ?>
   </select>
   </div>
-  <div>
+  <div class="calendar-action-btnGo">
   <input id="btnGo" type="button" value="Go" >
   </div>
 
@@ -64,7 +64,7 @@
 
 			if(jQuery('#action-menu').val() == "")
 			{
-				alert("Plase select an action");
+				alert("Plase select at least one action");
 				return;
 			}		
 			window.location.href = "/"+jQuery('#action-menu').val() 	;

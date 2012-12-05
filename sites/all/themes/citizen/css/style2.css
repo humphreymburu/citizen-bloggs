@@ -39,6 +39,10 @@ figure {
 {
 	 width: 120px;
 }
+.calendar-action-btnGo
+{
+	margin:5px 0px;
+}
 
 .butons {
 	display: block;
@@ -396,6 +400,10 @@ figure {
 .pane-message-example .user-picture img{
 	width:30px;
 	height:30px;
+}
+.user-picture
+{
+	text-align: center;
 }
 
 .contentright ul {
@@ -938,7 +946,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 	background-color: #666666;
     color: #FFFFFF;
     float: left;
-    margin-right: 8px;
+    margin-right: 4px;
     text-align: center;
     text-decoration: none;
     padding:0 10px;
@@ -948,7 +956,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 .zone-footer div.block-inner
 {
 	float: left;
-	margin-right: 30px;
+	margin-right: 20px;
 	margin-top: 20px;
 	
 }
@@ -987,7 +995,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 }
 .zone-footer div.block-inner .menu-name-main-menu
 {
-	width:600px;
+	
 	border: 1px solid #7ED0E8;
 	padding: 8px;
 	border-radius: 10px 10px 10px 10px;
@@ -995,7 +1003,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 .zone-footer div.block-inner .menu-name-main-menu li
 {
 	display: inline;
-	margin: 0 16px;
+	margin: 0 10px;
 }
 .zone-footer div.block-inner .item-list ul
 {
@@ -1003,7 +1011,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 }
 .zone-footer .region-footer-first
 {
-	padding-left: 25px;
+	padding-left: 30px;
 }
 .zone-footer .view-content
 {
@@ -1430,8 +1438,9 @@ ul.breadcrumb li.last a{
 	height: 26px;
 }
 
-.node-advpoll form[id^='advpoll-form'], .node-advpoll .poll{
-	width:482px;
+.node-advpoll form[id^='advpoll-form'], .node-advpoll .poll
+{
+	width:400px;
 	float:left;
 	border-left:1px #D3D3D3 solid;
 	border-top:1px #D3D3D3 solid;
@@ -1440,9 +1449,18 @@ ul.breadcrumb li.last a{
 }
 .node-advpoll .vote-right{
     float: right;
-    padding: 10px;
-    width: 175px;
+    padding: 5px;
+    width: 257px;
 	border:1px #D3D3D3 solid;
+}
+.vote-right .field-label
+{
+	float:left;
+	margin-right: 5px;
+}
+.vote-right div
+{
+	margin-bottom: 5px;
 }
 
 .node-advpoll .vote-metrices{
