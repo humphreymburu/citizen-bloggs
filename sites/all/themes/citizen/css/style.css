@@ -191,4 +191,17 @@ td.checkbox, th.checkbox {
 .progress .filled {
     background: url("../../misc/progress.gif") repeat scroll 0 0 #0072B9;
 }
+#edit-field-haps-reference-und {
+	margin-left: 17px;
+}
+#edit-field-vote-reference-und {
+	margin-left: 20px;
+}
+#forum-node-form label{
+	display: inline-block;
+}
+#forum-node-form label{
+	display: inline-block;
+}
+
 
