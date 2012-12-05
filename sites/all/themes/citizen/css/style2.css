@@ -1190,8 +1190,9 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 
 .view-most-popular-haps .views-row{
 	margin-bottom:40px;
-}	
-.view-my-haps .views-row{
+}
+.view-home-page-haps .views-row, .view-my-haps .views-row
+{
 	margin-bottom:40px;
 }	
 
@@ -1450,7 +1451,7 @@ ul.breadcrumb li.last a{
 .node-advpoll .vote-right{
     float: right;
     padding: 5px;
-    width: 257px;
+    width: 267px;
 	border:1px #D3D3D3 solid;
 }
 .vote-right .field-label
