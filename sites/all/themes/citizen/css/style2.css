@@ -1492,4 +1492,19 @@ ul.breadcrumb li.last a{
 }
  */
 
+a:hover
+{
+	text-decoration: underline;
+	
+}
+.zone-content
+{
+	
+	border-radius: 10px;
+}
+
+#btnGo:hover
+{
+	background: none repeat scroll 0 0 #FFF;
+}
 
