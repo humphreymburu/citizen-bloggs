@@ -55,7 +55,7 @@
   </select>
   </div>
   <div class="calendar-action-btnGo">
-  <input id="btnGo" type="button" value="Go" >
+  <input id="btnGo" title="Go to the selected action" type="button" value="Go" >
   </div>
 
   <script type="text/javascript">

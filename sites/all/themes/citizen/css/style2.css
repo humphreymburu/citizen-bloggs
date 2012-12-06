@@ -1470,3 +1470,18 @@ ul.breadcrumb li.last a{
 .node-advpoll .field-background{
 	margin-bottom:15px;
 }
+a:hover
+{
+	text-decoration: underline;
+	
+}
+.zone-content
+{
+	
+	border-radius: 10px;
+}
+
+#btnGo:hover
+{
+	background: none repeat scroll 0 0 #FFF;
+}
