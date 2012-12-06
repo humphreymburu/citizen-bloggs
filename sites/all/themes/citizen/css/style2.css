@@ -621,6 +621,11 @@ figure {
 	text-decoration: none;
 }
 
+.content ul.menu a:hover
+{
+	text-decoration: underline;
+}
+
 #block-system-main-menu ul.menu a:hover,#block-system-main-menu ul.menu a:focus
 	{
 	background-color: #2D9FC6;
