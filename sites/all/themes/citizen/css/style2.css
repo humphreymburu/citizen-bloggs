@@ -1475,6 +1475,28 @@ ul.breadcrumb li.last a{
 .node-advpoll .field-background{
 	margin-bottom:15px;
 }
+
+.page-node-add-forum .field-type-entityreference,
+.page-node-add-forum .field-type-taxonomy-term-reference
+{
+	display:inline-block;
+	width:50%;
+}
+.page-node-add-forum label
+{
+	display: inline-block;
+	vertical-align:top;
+}
+
+/* .page-node-add-poll .field-type-entityreference,
+.page-node-add-poll .field-type-taxonomy-term-reference,
+.page-node-add-poll .field-type-relation
+{
+	display:inline-block;
+	width:50%;
+}
+ */
+
 a:hover
 {
 	text-decoration: underline;
@@ -1490,3 +1512,4 @@ a:hover
 {
 	background: none repeat scroll 0 0 #FFF;
 }
+
