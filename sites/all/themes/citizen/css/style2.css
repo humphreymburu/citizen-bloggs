@@ -334,7 +334,6 @@ figure {
 	background-color: #59BADA;
 	border-radius: 14px 14px 0 0;
 	color: #FFFFFF;
-	float: left;
 	font-family: Calibri;
 	font-size: 14px;
 	font-style: normal;
@@ -1512,4 +1511,16 @@ a:hover
 {
 	background: none repeat scroll 0 0 #FFF;
 }
+
+.field-name-advpoll-options,
+ .field-name-advpoll-mode, .field-name-advpoll-cookie-duration, 
+ .field-name-advpoll-results, .field-name-advpoll-behavior 
+{
+	display: none;
+}
+
+
+
+
+
 
