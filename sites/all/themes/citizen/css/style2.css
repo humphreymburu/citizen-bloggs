@@ -1525,15 +1525,16 @@ a:hover
 	background: none repeat scroll 0 0 #FFF;
 }
 
+.page-node-add-advpoll .field-group-fieldset{
+	border: 1px solid #7ED0E8 !important;
+    border-radius: 10px 10px 10px 10px;
+    padding: 8px;
+}
+
 .field-name-advpoll-options,
  .field-name-advpoll-mode, .field-name-advpoll-cookie-duration, 
  .field-name-advpoll-results, .field-name-advpoll-behavior 
 {
 	display: none;
 }
-
-
-
-
-
 
