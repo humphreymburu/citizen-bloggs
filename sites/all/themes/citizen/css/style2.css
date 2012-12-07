@@ -1218,7 +1218,20 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 .ds-3col > .group-right{
 	width:5%;
 	padding: 5px;
+	min-height: 80px;
+	position: relative;
 }
+.ds-3col > .group-right .field-forum-reference
+{
+ position: absolute;
+    top: 42%;	
+}
+.ds-3col > .group-right .field-actions-reference
+{
+	position: absolute;
+    top: 78%;
+}
+
 .footer_main_menu
 {
 	background: red;
