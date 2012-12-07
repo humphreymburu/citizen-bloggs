@@ -43,9 +43,9 @@ td.active {
     font-weight: bold;
 }
 .item-list ul {
-    margin: 0 0 0.75em;
+    margin: 20px 0 0.75em 20px;
     padding: 0;
-    margin-left: 20px;
+   
 }
 .item-list ul li {
     margin: 0 0 0.25em 1.5em;
