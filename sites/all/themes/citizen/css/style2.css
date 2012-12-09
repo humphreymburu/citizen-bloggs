@@ -202,14 +202,11 @@ figure {
 }
 
 .rate-info, .rate-description {
-	background-color: #666666;
-	color: #FFFFFF;
-	float: left;
-	margin-right: 8px;
-	padding: 4px;
-	text-align: center;
-	text-decoration: none;
-	width: 100px;
+    margin-left: 12px;
+    padding: 4px;
+    text-align: left;
+    text-decoration: none;
+    width: 65px;
 }
 
 .newslink a:hover {
@@ -931,14 +928,17 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 	color: transparent;
 }
 
-.rate-widget ul li.first a {
+.upvote ul li.first a {
 	background-image: url("../images/arrowup.jpg");
 	background-repeat: no-repeat;
 	display:inline-block;
 	height:15px;
 	width:15px;
 }
-.rate-widget ul li.last a {
+.downvote{
+	clear:both;
+}
+.downvote ul li.last a {
 	background-image: url("../images/arrowdown.jpg");
 	background-repeat: no-repeat;
 	display:inline-block;

@@ -43,12 +43,12 @@ td.active {
     font-weight: bold;
 }
 .item-list ul {
-    margin: 20px 0 0.75em 20px;
+    margin: 7px 0 -0.25em 5px;
     padding: 0;
    
 }
 .item-list ul li {
-    margin: 0 0 0.25em 1.5em;
+    margin: 0 0 0.25em .5em;
     padding: 0;
 }
 .form-item, .form-actions {
