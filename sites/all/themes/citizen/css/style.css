@@ -211,7 +211,7 @@ td.checkbox, th.checkbox {
 
 .filedepottoolbar .filedepottoolbar_searchbox #searchquery
 {
-	height: auto;
+	height: 26px !important;
 }
 #filelistingheader .filedepotheading
 {
@@ -221,7 +221,14 @@ td.checkbox, th.checkbox {
 #showsearchtags
 {
 	color: #000000;
+	text-decoration: none;
 }
+#showsearchtags:hover
+{
+	color: #000000;
+	text-decoration: underline;
+}
+
 .content .field-label
 {
 	float: left;

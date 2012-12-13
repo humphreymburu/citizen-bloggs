@@ -1609,6 +1609,9 @@ background-image: url("../images/bmeain.jpg");
     
 }
     
-    
+form#subscriptions-ui-node-form{
+	clear:both;
+	margin-top:10px;
+}    
     
     
