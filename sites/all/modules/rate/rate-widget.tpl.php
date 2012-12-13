@@ -39,17 +39,11 @@
  */
 ?>
 
+<?php print theme('item_list', array('items' => $buttons)); ?>
 
-
-<div class="upvote">
-	<?php print theme('item_list', array('items' => $buttons)); ?>
-</div>
-  
-<?php print '<div class="rate-info">' . $results['count'] . '</div>'; ?>
-
-<div class="downvote">
-	<?php print theme('item_list', array('items' => $buttons)); ?>
-</div>
+<?php if ($info): ?>
+  <?php print '<div class="rate-info">' . $info . '</div>'; ?>
+<?php endif; ?>
 
 <?php if ($display_options['description']): ?>
   <?php print '<div class="rate-description">' . $display_options['description'] . '</div>'; ?>
