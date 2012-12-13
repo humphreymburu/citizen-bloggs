@@ -48,4 +48,33 @@ div.messages ul {
 div.messages ul li {
     list-style-image: none;
 }
-
+#subscribe .fieldset-title
+{
+	background: -moz-linear-gradient(center top , #FFFFFF 0%, #DDDDDD 100%) repeat scroll 0 0 transparent;
+	border-color: #DDDDDD #BBBBBB #999999;
+    border-image: none;
+    border-radius: 11px 11px 11px 11px;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    cursor: pointer;
+    font: bold 12px/1.2 Arial,sans-serif;
+    overflow: visible;
+    padding: 3px 8px 3px;
+    text-shadow: 0 1px 1px #FFFFFF;
+    width: auto;
+    
+}
+#subscribe .fieldset-title:hover
+{
+	text-decoration: none;
+	background:none repeat scroll 0 0 #ffffff;
+}
+#subscribe legend
+{
+ float: right;	
+}
+#subscribe .tableheader-processed
+{
+	float: left;
+}

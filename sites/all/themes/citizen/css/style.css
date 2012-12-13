@@ -150,7 +150,7 @@ input.form-checkbox, input.form-radio {
 }
 html.js fieldset.collapsible .fieldset-legend {
     background: url("../../misc/menu-expanded.png") no-repeat scroll 5px 65% transparent;
-   
+   margin-bottom: 5px;
 }
 html.js fieldset.collapsed .fieldset-legend {
     background-image: url("../../misc/menu-collapsed.png");
@@ -209,4 +209,26 @@ td.checkbox, th.checkbox {
     vertical-align: top;
 }    
 
+.filedepottoolbar .filedepottoolbar_searchbox #searchquery
+{
+	height: auto;
+}
+#filelistingheader .filedepotheading
+{
+	font: inherit;
+	font-size: inherit;
+}
+#showsearchtags
+{
+	color: #000000;
+}
+.content .field-label
+{
+	float: left;
+}
+
+.node-promoted .user-picture a img
+{
+	float: right;
+}
 

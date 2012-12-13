@@ -1540,3 +1540,75 @@ a:hover
 	display: none;
 }
 
+.zone-user .block-menu-logged-out-main-menu .content ul.menu
+{
+	cursor: default;
+    font-size: 100%;
+    list-style-type: none !important;
+    margin: 1px 0 0;
+    padding: 0;
+    width: auto
+}
+
+.zone-user .block-menu-logged-out-main-menu .content ul.menu li
+{
+cursor: pointer;
+    float: left;
+    font-size: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width: auto
+}
+.zone-user .block-menu-logged-out-main-menu
+{
+background-image: url("../images/bmeain.jpg");
+    background-repeat: repeat-y;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    float: right;
+    height: 44px;
+    margin-top: 24px
+}
+
+.zone-user .block-menu-logged-out-main-menu ul.menu li a {
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-family: Calibri;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 8px 6px 10px 9px;
+    text-decoration: none;
+}
+
+.zone-user .block-menu-logged-out-main-menu ul.menu li a:hover
+{
+	background-color: #2D9FC6;
+	border-radius: 10px 10px 10px 10px;
+	color: #FFFFFF;
+	display: block;
+	position: relative;
+	transition: color 0.5s ease 0s, background 0.5s ease 0s;
+	text-decoration: none;	
+}
+.region-footer-first .block-menu-logged-out-main-menu .content
+{
+	 border: 1px solid #7ED0E8;
+    border-radius: 10px 10px 10px 10px;
+    padding: 8px;
+}
+
+.region-footer-first .block-menu-logged-out-main-menu .content ul li
+{
+ 	display: inline;
+    margin: 0 10px;
+    
+}
+    
+    
+    
+    

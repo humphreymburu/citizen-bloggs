@@ -44,6 +44,6 @@ jQuery(function(){
 	jQuery(".forum-post-links li.comment-delete a").html("<img alt='Delete' title='Delete' src='/sites/all/themes/citizen/images/delete.png'>");
 	jQuery(".forum-post-links li.comment-reply  a").html("<img alt='Quick Reply' title='Quick Reply' src='/sites/all/themes/citizen/images/report.png'>");
 	
-	
+	 jQuery(".block-menu-logged-out-main-menu").clone().prependTo("#region-footer-first");
 	
 });
