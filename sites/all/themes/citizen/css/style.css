@@ -196,11 +196,29 @@ td.checkbox, th.checkbox {
     vertical-align: top;
 }
 .page-node-add-advpoll .field-type-entityreference, 
-.page-node-add-advpoll .field-type-taxonomy-term-reference {
+.page-node-add-advpoll .field-type-taxonomy-term-reference,
+.page-node-add-advpoll .form-item-group-audience-und,
+.page-node-add-advpoll .field-name-field-actions-reference{
     display: inline-block;
     width: 50%;
 }
-.page-node-add-forum .field-type-entityreference, .page-node-add-forum .field-type-taxonomy-term-reference {
+.page-node-add-advpoll .form-item-group-audience-und{
+	float:left;
+	width: 350px;
+}
+.page-node-add-advpoll .field-name-field-forum-reference{
+	margin:0px 0px 0px 1px;
+}
+.page-node-add-advpoll .field-name-field-actions-reference{
+	margin: 3px;
+	width:49%;
+}
+#edit-field-actions-reference-und{
+	width:59%
+	}
+
+.page-node-add-forum .field-type-entityreference, 
+.page-node-add-forum .field-type-taxonomy-term-reference {
     display: inline-block;
     width: 50%;
 }
