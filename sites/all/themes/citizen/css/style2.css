@@ -1457,6 +1457,7 @@ ul.breadcrumb li.last a{
 	margin:0px;
 	padding: 5px 5px 0;
 	height: 26px;
+	display: none;
 }
 
 .node-advpoll form[id^='advpoll-form'], .node-advpoll .poll
@@ -1614,6 +1615,7 @@ form#subscriptions-ui-node-form{
 	clear:both;
 	margin-top:10px;
 }    
+
     
  .forum-topic-header .topic-post-count a
  {
@@ -1650,8 +1652,41 @@ form#subscriptions-ui-node-form{
     position: relative;
  }
  
- 
- 
- 
- 
- 
+
+#advpoll-choice-add-more-wrapper .form-item .tabledrag-toggle-weight-wrapper a{
+	-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+}
+#advpoll-choice-add-more-wrapper .form-item .tabledrag-toggle-weight-wrapper a:hover{
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+#advpoll-choice-values field-label{
+	float: inherit;
+	}
+#advpoll-choice-values .form-type-textfield input#edit-advpoll-choice-und-0-choice{
+	width: 630px;
+}
+#advpoll-choice-add-more-wrapper .clearfix {
+	    margin: 0.5em 0 2em;
+}
+    
+
