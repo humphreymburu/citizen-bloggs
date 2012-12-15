@@ -1352,6 +1352,7 @@ background-image: url("../images/filter.png");
 	padding: 7px 26px 9px;
 	background-repeat: no-repeat;
 	height:20px;
+	position: absolute;
 }
 .right-user-login ul li.last a{
     background-color: #666666;
@@ -1364,7 +1365,7 @@ background-image: url("../images/filter.png");
     font-family: Verdana,Arial,Helvetica,sans-serif;
     font-size: 15px;
     font-weight: normal;
-    margin: 0;
+    margin: 0 0 0 50px;
     padding: 5px 26px 5px 13px;
     text-align: center;
     text-decoration: none;
@@ -1614,4 +1615,43 @@ form#subscriptions-ui-node-form{
 	margin-top:10px;
 }    
     
-    
+ .forum-topic-header .topic-post-count a
+ {
+ margin-right: -4px;
+ }
+ .forum-topic-header .topic-post-count span
+ {
+ margin-left: 4px;
+ }
+ 
+
+#action-node-form .field-name-field-vote-reference label
+ {
+    bottom: 28px;
+    display: inline;
+    position: relative;
+ }
+ #action-node-form .field-name-field-forum-reference label
+ {
+    bottom: 28px;
+    display: inline;
+    position: relative;
+ }
+ #action-node-form .field-name-field-haps-reference label
+ {
+    bottom: 28px;
+    display: inline;
+    position: relative;
+ }
+ #action-node-form .field-name-field-invite-users label
+ {
+    bottom: 28px;
+    display: inline;
+    position: relative;
+ }
+ 
+ 
+ 
+ 
+ 
+ 

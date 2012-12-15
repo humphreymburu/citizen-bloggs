@@ -50,19 +50,26 @@ div.messages ul li {
 }
 #subscribe .fieldset-title
 {
-	background: -moz-linear-gradient(center top , #FFFFFF 0%, #DDDDDD 100%) repeat scroll 0 0 transparent;
-	border-color: #DDDDDD #BBBBBB #999999;
-    border-image: none;
-    border-radius: 11px 11px 11px 11px;
-    border-style: solid;
-    border-width: 1px;
-    color: #333333;
-    cursor: pointer;
-    font: bold 12px/1.2 Arial,sans-serif;
-    overflow: visible;
-    padding: 3px 8px 3px;
-    text-shadow: 0 1px 1px #FFFFFF;
-    width: auto;
+	webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
     
 }
 #subscribe .fieldset-title:hover
@@ -78,3 +85,9 @@ div.messages ul li {
 {
 	float: left;
 }
+
+#subscribe .fieldset-wrapper #edit-footer .description
+{
+	clear: both;
+}
+
