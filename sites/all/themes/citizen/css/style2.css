@@ -37,7 +37,7 @@ figure {
 
 .calendar-action-menu select
 {
-	 width: 120px;
+	 width: 145px;
 }
 .calendar-action-btnGo
 {
@@ -382,10 +382,33 @@ figure {
 .profile-panel .add-new-content .pane-content p{
     display: inline-block;
     text-align: center;
-    width: 45%;
-    border: 1px solid #59BADA;
-    border-radius: 10px;
-    margin-bottom: 8px;
+    width: 48%;
+    margin: 0px;
+}
+.profile-panel .add-new-content .pane-content p.hap
+{
+	 border-right: 1px solid #59BADA;
+	  border-bottom: 1px solid #59BADA;
+}
+
+.profile-panel .add-new-content .pane-content p.votes
+{
+	 border-left: 1px solid #59BADA;
+	  border-bottom: 1px solid #59BADA;
+}
+.profile-panel .add-new-content .pane-content p.action
+{
+	 border-left: 1px solid #59BADA;
+	  border-top: 1px solid #59BADA;
+}
+.profile-panel .add-new-content .pane-content p.discussion
+{
+	 border-right: 1px solid #59BADA;
+	  border-top: 1px solid #59BADA;
+}
+.profile-panel .add-new-content .pane-content
+{
+	padding: 0px;
 }
 
 .profile-panel .view-my-events-list table{margin:0}
@@ -689,6 +712,10 @@ input#edit-custom-search-blocks-form-1--2 {
 	font-size: 15px;
 	font-weight: normal;
 	text-transform: uppercase;
+}
+
+.not-logged-in .left-menu ul.menu {
+	display: none;
 }
 
 .left-menu ul.menu {
@@ -1078,7 +1105,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     font-size: 14px;
     font-style: normal;
     font-weight: normal;
-    padding: 5px 30px;
+    padding: 5px 36px;
     text-decoration: none;
 }
 
@@ -1197,7 +1224,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 .view-most-popular-haps .views-row{
 	margin-bottom:40px;
 }
-.view-home-page-haps .views-row, .view-my-haps .views-row
+.view-home-page-haps .views-row, .view-my-haps .views-row, .view-log-in-page-haps .views-row
 {
 	margin-bottom:40px;
 }	
@@ -1566,12 +1593,13 @@ cursor: pointer;
 }
 .zone-user .block-menu-logged-out-main-menu
 {
-background-image: url("../images/bmeain.jpg");
+
     background-repeat: repeat-y;
     border-radius: 10px 10px 10px 10px;
     display: block;
     float: right;
     height: 44px;
+    background-color: #D3D3D3;
     margin-top: 24px
 }
 
@@ -1689,4 +1717,139 @@ text-decoration: none;
 	    margin: 0.5em 0 2em;
 }
     
+#user-login-form .item-list ul li a
+{
+	-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+}
+#user-login-form .item-list ul li a:hover
+{
+	background: none repeat scroll 0 0 #FFFFFF;
+	text-decoration: none !important;
+}
+
+
+#user-login-form .item-list ul li
+{
+	margin: 0 0 10px 0;
+}
+#user-login-form .item-list ul
+{
+	margin: 0 0 ;
+}
+
+#reportheadercontainer .pluginReportTitle div
+{
+	webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+padding-left: 0px;
+}
+#reportheadercontainer .pluginReportTitle div:hover
+{
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.floatleft #showhidedetail a
+{
+	webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;	
+}
+.floatleft #showhidedetail a:hover
+{
+background: none repeat scroll 0 0 #FFFFFF;
+
+}
+
+#date-node-form thead th
+{
+	color: #000000;
+	background: none;
+	border: none;
+	float: none;
+}
+#date-node-form thead
+{
+	border: none;
+}
+.tabledrag-toggle-weight-wrapper
+{
+	display: none;
+}
+
+#edit-signup .description
+{
+	display: none;
+}
+#edit-signup .form-item-signup-user-reg
+{
+	display: none;
+}
+
+.form-item-recipient .description
+{
+	display: none;
+}
+#advpoll-choice-values .description
+{
+	display: none;
+}
+
+
+
+
+
 

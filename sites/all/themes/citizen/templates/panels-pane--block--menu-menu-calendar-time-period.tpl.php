@@ -40,7 +40,7 @@
  
   <div class="calendar-action-menu">
   <select id="action-menu">
-  <option value="">Actions</option>
+  <option value="">Select Time Period</option>
   <?php 
   
   //dpr($content);
