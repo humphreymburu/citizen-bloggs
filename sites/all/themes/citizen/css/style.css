@@ -202,8 +202,6 @@ td.checkbox, th.checkbox {
     display: inline-block;
     width: 50%;
 }
-
-
 .page-node-add-advpoll .form-item-group-audience-und{
 	float:left;
 	width: 350px;
@@ -227,9 +225,57 @@ td.checkbox, th.checkbox {
 .page-node-add-forum label {
     display: inline-block;
     vertical-align: top;
-}    
+}
+#hap-node-form  #edit-group-audience,
+#hap-node-form #edit-field-vote-reference{
+	float:left;
+    width: 352px;
+}
+#hap-node-form label{
+	display: inline-block;
+    vertical-align: top;
+}
+#hap-node-form #edit-field-attachment{
+	margin-top:3em;
+}
+#hap-node-form .form-item-field-actions-reference-und .form-select{
+	width: 210px
+	}
+#hap-node-form #edit-field-actions-reference{
+	margin-top:13em;
+}
+#hap-node-form #edit-actions{
+	margin-top:4em;
+	}
+#hap-node-form #edit-title{
+	width:698px;
+	display: block;
+}
+#hap-node-form #edit-field-forum-reference{
+	float:left;
+}
 
-.filedepottoolbar .filedepottoolbar_searchbox #searchquery
+#action-node-form .form-item-field-vote-reference-und,
+#action-node-form  .form-item-field-haps-reference-und
+	{
+	float:left;
+	}
+#action-node-form .vertical-tabs,#action-node-form #edit-actions
+{
+	float:left;
+}
+#action-node-form #edit-group-audience label{
+	display:inline-block;
+	vertical-align: top;
+}
+
+#action-node-form .form-item-field-invite-users-und
+{
+	float: right;
+	
+}
+	
+	.filedepottoolbar .filedepottoolbar_searchbox #searchquery
 {
 	height: 26px !important;
 }
@@ -257,5 +303,17 @@ td.checkbox, th.checkbox {
 .node-promoted .user-picture a img
 {
 	float: right;
+}
+#block-system-main .node-action .subscriptions-subscribe{
+	float:right;
+}
+.node-hap .content{
+	font-size: 15px;
+}
+.node-hap .subscriptions-subscribe{
+	float: right;
+}
+.node-action .content{
+	font-size: 15px;
 }
 

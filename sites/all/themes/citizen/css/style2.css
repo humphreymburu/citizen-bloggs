@@ -1498,6 +1498,10 @@ ul.breadcrumb li.last a{
 	display:inline-block;
 	width:50%;
 }
+.page-node-add-forum #edit-field-vote-reference{
+	width:67% ;
+}
+
 .page-node-add-forum label
 {
 	display: inline-block;
@@ -1629,27 +1633,28 @@ form#subscriptions-ui-node-form{
 
 #action-node-form .field-name-field-vote-reference label
  {
-    bottom: 28px;
-    display: inline;
-    position: relative;
+  display:inline-block;
+   vertical-align: top;
  }
  #action-node-form .field-name-field-forum-reference label
  {
-    bottom: 28px;
-    display: inline;
-    position: relative;
+   
+   display:inline-block;
+   vertical-align: top;
+ }
+ #action-node-form .field-name-field-forum-reference{
+ float:right;
  }
  #action-node-form .field-name-field-haps-reference label
  {
-    bottom: 28px;
-    display: inline;
-    position: relative;
+   display:inline-block;
+   vertical-align: top;
+   
  }
  #action-node-form .field-name-field-invite-users label
  {
-    bottom: 28px;
-    display: inline;
-    position: relative;
+ display:inline-block;
+  vertical-align: top;
  }
  
 
@@ -1685,8 +1690,106 @@ text-decoration: none;
 #advpoll-choice-values .form-type-textfield input#edit-advpoll-choice-und-0-choice{
 	width: 630px;
 }
+#main h1{
+	display:none;
+}
 #advpoll-choice-add-more-wrapper .clearfix {
 	    margin: 0.5em 0 2em;
 }
-    
 
+#privatemsg-new #edit-actions #edit-cancel{
+	-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+}
+#privatemsg-new #edit-actions #edit-cancel:hover{
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+.panel-flexible .pane-public-groups div.more-link a{
+	-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+}
+.panel-flexible .pane-public-groups div.more-link a:hover{
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+ .panels-flexible-group_page_layout  .panels-flexible-region-group_page_layout-description{
+ width: 102.075%;
+ }
+ .panels-flexible-group_page_layout .panels-flexible-region-inside .field-group-group a{
+	-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+}
+.panels-flexible-group_page_layout .panels-flexible-region-inside .field-group-group a:hover{
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+.panels-flexible-group_page_layout .panels-flexible-region-inside .field-group-group{
+	margin:10px;
+}
+#advpoll-dates-add-more-wrapper .fieldset-wrapper .end-date-wrapper,
+#advpoll-dates-add-more-wrapper .fieldset-wrapper .start-date-wrapper {
+	display: inline;
+}
+#advpoll-dates-add-more-wrapper .fieldset-wrapper .end-date-wrapper label{
+	float:left;
+    margin-top:29px;
+}
+#advpoll-dates-add-more-wrapper .fieldset-wrapper .form-item-advpoll-dates-und-0-value2-date{
+	margin-top: -29px;
+	margin-left: 15px;
+}
