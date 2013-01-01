@@ -28,6 +28,11 @@ jQuery(function(){
 		jQuery(".form-item-recipient").before(jQuery("#block-menu-menu-messages-3rd-menu"));
 		
 	}
+	if(jQuery("#block-menu-menu-messages-3rd-menu").hasClass("block-menu-menu-messages-3rd-menu"))
+	{
+		jQuery("#block-system-main").before(jQuery("#block-menu-menu-messages-3rd-menu"));
+		
+	}
 	
 		
 	jQuery(".statistics_counter").prepend(jQuery('.field-group-audience').html()+",");
