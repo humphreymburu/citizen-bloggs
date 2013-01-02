@@ -1526,7 +1526,7 @@ ul.breadcrumb li.last a{
 	width:50%;
 }
 .page-node-add-forum #edit-field-vote-reference{
-	width:67% ;
+	width:50% ;
 }
 
 .page-node-add-forum label
@@ -1856,6 +1856,13 @@ background: none repeat scroll 0 0 #FFFFFF;
 {
 	display: none;
 }
+
+
+
+
+
+
+
 #privatemsg-new #edit-actions #edit-cancel{
 	-webkit-appearance: none;
 -moz-border-radius: 11px;
