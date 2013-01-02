@@ -1787,7 +1787,7 @@ overflow: visible;
 padding: 3px 10px 4px;
 text-shadow: white 0 1px 1px;
 width: auto;
-padding-left: 0px;
+padding-left: 10px !important;
 }
 #reportheadercontainer .pluginReportTitle div:hover
 {
@@ -1958,4 +1958,9 @@ text-decoration: none;
 #advpoll-dates-add-more-wrapper .fieldset-wrapper .form-item-advpoll-dates-und-0-value2-date{
 	margin-top: -29px;
 	margin-left: 15px;
+}
+#edit-actions--2
+{
+	float: left;
+    margin: 0px !important;
 }

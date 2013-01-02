@@ -33,6 +33,11 @@ jQuery(function(){
 		jQuery("#block-system-main").before(jQuery("#block-menu-menu-messages-3rd-menu"));
 		
 	}
+	if(jQuery("#edit-actions--2").hasClass("form-actions"))
+	{
+		jQuery("#block-user-login .item-list").prepend(jQuery("#edit-actions--2"));
+		
+	}
 	
 		
 	jQuery(".statistics_counter").prepend(jQuery('.field-group-audience').html()+",");
