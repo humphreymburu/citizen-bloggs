@@ -260,10 +260,7 @@ td.checkbox, th.checkbox {
 	{
 	float:left;
 	}
-#action-node-form .vertical-tabs,#action-node-form #edit-actions
-{
-	float:left;
-}
+
 #action-node-form #edit-group-audience label{
 	display:inline-block;
 	vertical-align: top;
