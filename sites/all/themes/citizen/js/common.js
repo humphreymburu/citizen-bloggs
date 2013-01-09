@@ -3,15 +3,15 @@ jQuery(function(){
 		classOfDiv = jQuery(this).attr('class');
 		if(classOfDiv == "field-actions-reference")
 		{
-			jQuery(".group-right .field-actions-reference a").html("<img src='/sites/all/themes/citizen/images/discussion.png'>");
+			jQuery(".group-right .field-actions-reference a").html("<img alt='Actions' title='Actions' src='/sites/all/themes/citizen/images/action.png'>");
 		}	
 		if(classOfDiv == "field-vote-reference")
 		{
-			jQuery(".group-right .field-vote-reference a").html("<img src='/sites/all/themes/citizen/images/like.png' />");
+			jQuery(".group-right .field-vote-reference a").html("<img alt='Vote' title='Vote' src='/sites/all/themes/citizen/images/vote.png' />");
 		}	
 		if(classOfDiv == "field-forum-reference")
 		{
-			jQuery(".group-right .field-forum-reference a").html("<img src='/sites/all/themes/citizen/images/cd.png'>");
+			jQuery(".group-right .field-forum-reference a").html("<img alt='Discussion' title='Discussion' src='/sites/all/themes/citizen/images/discussion2.png'>");
 		}	
 	});
 	
@@ -35,7 +35,12 @@ jQuery(function(){
 	}
 	if(jQuery("#edit-actions--2").hasClass("form-actions"))
 	{
-		jQuery("#block-user-login .item-list").prepend(jQuery("#edit-actions--2"));
+		jQuery("#user-login-form .item-list").prepend(jQuery("#edit-actions--2"));
+		
+	}
+	if(jQuery("#edit-actions").hasClass("form-actions"))
+	{
+		jQuery("#user-login-form .item-list").prepend(jQuery("#edit-actions"));
 		
 	}
 	

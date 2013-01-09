@@ -382,13 +382,15 @@ figure {
 .profile-panel .add-new-content .pane-content p{
     display: inline-block;
     text-align: center;
-    width: 48%;
+    width: 42%;
     margin: 0px;
+    padding: 5px;
 }
 .profile-panel .add-new-content .pane-content p.hap
 {
 	 border-right: 1px solid #59BADA;
 	  border-bottom: 1px solid #59BADA;
+	  margin-left: 1px;
 }
 
 .profile-panel .add-new-content .pane-content p.votes
@@ -399,12 +401,13 @@ figure {
 .profile-panel .add-new-content .pane-content p.action
 {
 	 border-left: 1px solid #59BADA;
-	  border-top: 1px solid #59BADA;
+	  
 }
 .profile-panel .add-new-content .pane-content p.discussion
 {
 	 border-right: 1px solid #59BADA;
-	  border-top: 1px solid #59BADA;
+	 margin-left: 1px;
+	 
 }
 .profile-panel .add-new-content .pane-content
 {
@@ -1276,17 +1279,22 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     font-size: 30px;
     font-family: Calibri;
 }
-#region-content ul.tabs{
+#region-content ul.tabs li{
 	background-image: url("../images/bmeain.jpg");
     background-repeat: repeat-y;
     border-radius: 155px 155px 10px 10px;
-    display: block;
+    display: none;
     float: right;
     height: 41px;
     margin-top: 24px;
     width: 606px;
-	display:none;
+	
 }
+#region-content ul.tabs li:nth-child(4)
+{
+	
+}
+
 
 #region-content ul.tabs a{
 	color: #FFFFFF;
@@ -1952,8 +1960,100 @@ text-decoration: none;
 	margin-top: -29px;
 	margin-left: 15px;
 }
-#edit-actions--2
+#user-login-form #edit-actions--2
 {
 	float: left;
-    margin: 0px !important;
+    margin: 0 10px 0 0 !important;
+    
 }
+#user-login-form #edit-actions
+{
+	float: left;
+    margin: 0 10px 0 0 !important;
+}
+
+#user-login-form div input:not([type='submit']) {
+	 width: 180px;
+}
+#user-login-form .item-list ul li.last a
+{
+	padding: 3px 41px 4px !important;
+}
+#user-login-form .item-list ul li.last
+{
+	margin: 15px 0 10px 0 !important;
+}
+.facebook-action-connect img
+{
+	height: 22px;
+    width: 194px;
+}
+#user-login-form
+{
+ padding: 0 5px;
+    width: 182px;
+border: 1px solid #d3d3d3;
+ border-radius: 0 0 10px 10px;
+    margin-bottom: 10px;
+}
+#user-register-form #edit-account input
+{
+	width: 698px;
+}
+.calendar-action-menu
+{
+	float: left;
+	margin-right: 10px;
+}
+.view-my-events-list .view-content
+{
+	border-bottom: 1px solid #BEBDD1;
+    border-left: 1px solid #BEBDD1;
+    border-radius: 0 0 14px 0;
+    border-right: 1px solid #BEBDD1;
+    color: #666666;
+    float: left;
+    font-family: Calibri;
+    font-size: 15px;
+    margin-bottom: 12px;
+    padding: 4px;
+    
+}
+
+div.view-content .views-row
+{
+	background: url("../images/bullet.png") no-repeat scroll left 7px transparent;
+	padding: 0 0 0 12px;
+}
+.pane-content div.view-content .views-row
+{
+	background: none !important;
+	padding: 0 !important;
+}
+ .zone-footer div.view-content .views-table tbody tr
+ {
+ background: url("../images/bullet.png") no-repeat scroll left 10px transparent !important;
+	padding: 0 0 0 12px;
+ }
+ .zone-footer .view-most-popular-haps div.view-content > div {
+	background: url("../images/bullet.png") no-repeat scroll left 7px transparent;
+	padding: 0 0 0 12px;
+}
+
+#filedepot .yui-layout-unit-center .yui-layout-bd
+{
+	min-width: 650px;
+}
+#filedepot .yui-layout-unit-center .yui-layout-wrap
+{
+	
+	overflow: scroll;
+}
+#zone-header #region-header-second
+{
+	float: right;
+}
+
+
+
+
