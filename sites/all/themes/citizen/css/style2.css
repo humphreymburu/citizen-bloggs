@@ -1534,7 +1534,7 @@ ul.breadcrumb li.last a{
 	width:50%;
 }
 .page-node-add-forum #edit-field-vote-reference{
-	width:67% ;
+	width:50% ;
 }
 
 .page-node-add-forum label
@@ -1708,8 +1708,8 @@ background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
 border: 1px solid;
 border-color: #DDD #BBB #999;
 cursor: pointer;
-color: #333;
 font: bold 12px/1.2 Arial, sans-serif;
+color: #333;
 outline: 0;
 overflow: visible;
 padding: 3px 10px 4px;
@@ -1864,6 +1864,13 @@ background: none repeat scroll 0 0 #FFFFFF;
 {
 	display: none;
 }
+
+
+
+
+
+
+
 #privatemsg-new #edit-actions #edit-cancel{
 	-webkit-appearance: none;
 -moz-border-radius: 11px;

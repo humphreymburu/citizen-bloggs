@@ -265,6 +265,12 @@ td.checkbox, th.checkbox {
 	display:inline-block;
 	vertical-align: top;
 }
+#hap-node-form #edit-field-vote-reference-und{
+	width:223px;
+}
+#forum-node-form #edit-field-vote-reference-und{
+	width:223px;
+}
 
 #action-node-form .form-item-field-invite-users-und
 {
