@@ -230,7 +230,9 @@ td.checkbox, th.checkbox {
 #hap-node-form #edit-field-vote-reference{
 	float:left;
     width: 352px;
+    
 }
+
 #hap-node-form label{
 	display: inline-block;
     vertical-align: top;
@@ -242,7 +244,7 @@ td.checkbox, th.checkbox {
 	width: 210px
 	}
 #hap-node-form #edit-field-actions-reference{
-	margin-top:13em;
+	margin-top:10.7em;
 }
 #hap-node-form #edit-actions{
 	margin-top:4em;
@@ -311,7 +313,7 @@ td.checkbox, th.checkbox {
 	float:right;
 }
 .node-hap .content{
-	font-size: 15px;
+	font-size: 17px;
 }
 .node-hap .subscriptions-subscribe{
 	float: right;

@@ -1472,7 +1472,7 @@ ul.breadcrumb li.last a{
 }
 .forum-post-links{
 	line-height: normal;
-	margin:0
+	margin:0 0 11px;
 }
 .forum-post-links ul{
 	margin-bottom:10px;
@@ -1671,7 +1671,18 @@ form#subscriptions-ui-node-form{
    vertical-align: top;
  }
  #action-node-form .field-name-field-forum-reference{
- float:right;
+ float:left;
+     margin-right: 43px;
+    margin-top: 46px;
+ }
+ #action-node-form #edit-field-vote-reference-und{
+ width:219px;
+ }
+ #action-node-form #edit-field-invite-users-und{
+ width:229px;
+ }
+ #action-node-form #edit-group-audience-und{
+ width:197px;
  }
  #action-node-form .field-name-field-haps-reference label
  {
@@ -1959,8 +1970,77 @@ text-decoration: none;
 	margin-top: -29px;
 	margin-left: 15px;
 }
-#edit-actions--2
+#user-login-form #edit-actions--2
 {
 	float: left;
     margin: 0px !important;
+}
+.subscriptions-subscribe a{
+	-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+}
+.subscriptions-subscribe a:hover{
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+.user-picture img{
+	   	height: 65px;
+	    width: 65px;
+}
+.forum-post-wrapper .user-picture img{
+	float: left;
+    margin-bottom: 5px;
+    margin-top: 6px;
+}
+.forum-post-title{
+	font-size: 17px;
+	margin-bottom:5px
+}
+#action-node-form thead th
+{
+	 background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #000000;
+    }
+#action-node-form thead{
+	border-left: none;
+}
+#hap-node-form #edit-field-actions-reference .form-item .form-acti{
+	margin-bottom: 2em;
+}
+#advpoll-node-form #edit-group-audience-und{
+	width: 260px;
+}
+#advpoll-node-form #edit-field-haps-reference-und{
+	width: 223px;
+}
+#advpoll-node-form .form-text {
+	width: 615px;
+}
+#forum-node-form .form-text{
+	width: 567px;
+}
+#action-node-form .form-item-title label {
+	display: inline-block;
+}
+#action-node-form .form-item-title .form-text{
+	width: 633px;
 }
