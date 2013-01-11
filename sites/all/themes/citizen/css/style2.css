@@ -2143,7 +2143,30 @@ text-decoration: none;
 	float: right;
 }
 
+#privatemsg-list div #privatemsg-list-form 
+{
+	margin-top: 35px;
+}
 
+#date-node-form #edit-group-audience label
+{
+	float: left;
+}
 
-
+#field-invite-users-values tbody td div.form-item-field-invite-users-und-0-target-id input#edit-field-invite-users-und-0-target-id
+{
+	width: 100%;
+}
+#pm-block-user-list #edit-new div.fieldset-wrapper input#edit-name
+{
+	width: 100%;
+}
+#pm-block-user-list table.tableheader-processed tbody
+{
+	border: none !important;
+}
+#privatemsg-new div  input#edit-subject, input#edit-recipient
+{
+	width:100%;
+}
 

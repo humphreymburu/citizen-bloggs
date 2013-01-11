@@ -155,6 +155,7 @@ html.js fieldset.collapsible .fieldset-legend {
 html.js fieldset.collapsed .fieldset-legend {
     background-image: url("../../misc/menu-collapsed.png");
     background-position: 5px 50%;
+    position: absolute;
 }
 .fieldset-legend span.summary {
     color: #999999;
@@ -321,4 +322,30 @@ td.checkbox, th.checkbox {
 .node-action .content{
 	font-size: 15px;
 }
+
+
+
+
+ div.user-profile .group-right .field-ds-user-picture
+ {
+ float: right;
+ }
+.user-profile a.privatemsg-send-link-profile
+{
+	float: right;
+}
+.user-profile .group-footer #block-views-my-content-block .block-inner .block-title
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+.user-profile .group-footer
+{
+	border: 1px solid #d3d3d3;
+}
+
+
+
+
+
+
 
