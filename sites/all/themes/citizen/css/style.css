@@ -362,38 +362,154 @@ margin: 10px 0 10px 5px;
 }
 .user-profile .group-footer #block-views-my-content-block .block-inner .block-title
 {
-	border-bottom: 1px solid #d3d3d3;
+	border-bottom: 1px solid #BEBDD1;
 	padding: 0 5px;
 }
 .user-profile .group-footer
 {
-	border: 1px solid #d3d3d3;
+	border: 1px solid #BEBDD1;
 }
 .user-profile .group-footer #block-views-my-content-block .block-inner .content
 {
 	padding: 5px
 }
-.node-promoted .group-left 
+.user-profile .group-left dl.user-profile-category 
 {
-	border: 1px solid #d3d3d3;
-	margin: 5px;
-	 padding: 5px;
-    width: 300px;
+	border: 1px solid #BEBDD1;
+    padding: 7px 7px 2px;
 }
-.node-promoted .group-left div
+.user-profile .group-left dl.user-profile-category dt.user-profile-item
 {
-	width: 270px;
+	 border-right: 1px solid #BEBDD1;
+    float: left;
+    margin-right: 10px;
+    margin-top: -7px;
+    padding-right: 10px;
+}
+.user-profile .group-left dl.user-profile-category dd.user-profile-item
+{
+	margin-bottom: 0 !important;
 }
 
-.node-promoted .group-right ul.menu li
+.node-date .group-left 
+{
+	
+	margin: 5px;
+	 padding: 5px;
+   width: 300px;
+}
+.node-date .group-left > span
+{
+	 margin-left: 5px;
+    margin-top: 16px;
+}
+
+.node-date .group-left div
+{
+	width: 270px;
+	border: 1px solid #BEBDD1;
+    margin-top: 11px;
+    padding: 5px;
+}
+
+.node-date .group-right ul.menu li
 {
 	float: left;
 	margin: 10px 10px 10px 0;
 }
+
+.node-date .group-right ul.menu li a
+{
+		-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+margin: 10px 0 10px 5px;
+}
+.node-date .group-right ul.menu li a:hover
+{
+	background: #ffffff;
+}
+.node-date .group-right .field-location .adr
+{
+	border: 1px solid #BEBDD1;
+    margin-top: 20px;
+    padding: 5px;
+}
+.node-date .group-right > span.field-label
+{
+	margin-left: 5px;
+    margin-top: 25px;
+} 
+
 #advpoll-choice-values thead tr th.field-label
 {
 	float: none !important;
 }
+
+.node-group-of-members .group-right .field-image
+{
+	overflow: hidden;
+}
+.node-group-of-members .group-right
+{
+	width: 48% !important;
+}
+.node-group-of-members .group-left .field-number-of-users-in-group div.view-content .views-row
+{
+	background: none !important;
+}
+.node-group-of-members .group-right .field-author a
+{
+		-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+margin: 10px 0 10px 5px;
+}
+.node-group-of-members .group-right .field-author a:hover
+{
+	background: #ffffff;
+}
+.node-group-of-members .group-right .field-author
+{
+	margin: 0 0 10px 0;
+}
+
 
 
 

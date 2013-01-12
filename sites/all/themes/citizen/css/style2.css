@@ -1280,15 +1280,9 @@ ul.lavaLampNoImage li.menu-218 a:hover{
     font-family: Calibri;
 }
 #region-content ul.tabs li{
-	background-image: url("../images/bmeain.jpg");
-    background-repeat: repeat-y;
-    border-radius: 155px 155px 10px 10px;
-    display: none;
-    float: right;
-    height: 41px;
-    margin-top: 24px;
-    width: 606px;
 	
+    display: none;
+   
 }
 #region-content ul.tabs li:nth-child(4)
 {
