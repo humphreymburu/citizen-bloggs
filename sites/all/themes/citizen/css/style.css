@@ -333,19 +333,67 @@ td.checkbox, th.checkbox {
 .user-profile a.privatemsg-send-link-profile
 {
 	float: right;
+		-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+margin: 10px 0 10px 5px;
+}
+.user-profile a.privatemsg-send-link-profile:hover
+{
+	background: #ffffff;
 }
 .user-profile .group-footer #block-views-my-content-block .block-inner .block-title
 {
 	border-bottom: 1px solid #d3d3d3;
+	padding: 0 5px;
 }
 .user-profile .group-footer
 {
 	border: 1px solid #d3d3d3;
 }
+.user-profile .group-footer #block-views-my-content-block .block-inner .content
+{
+	padding: 5px
+}
+.node-promoted .group-left 
+{
+	border: 1px solid #d3d3d3;
+	margin: 5px;
+	 padding: 5px;
+    width: 300px;
+}
+.node-promoted .group-left div
+{
+	width: 270px;
+}
 
-
-
-
+.node-promoted .group-right ul.menu li
+{
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+#advpoll-choice-values thead tr th.field-label
+{
+	float: none !important;
+}
 
 
 

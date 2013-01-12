@@ -33,6 +33,9 @@ jQuery(function(){
 		jQuery("#block-system-main").before(jQuery("#block-menu-menu-messages-3rd-menu"));
 		
 	}
+	
+	jQuery(".group-footer").after(jQuery(".privatemsg-send-link-profile"));
+	
 	if(jQuery("#edit-actions--2").hasClass("form-actions"))
 	{
 		jQuery("#user-login-form .item-list").prepend(jQuery("#edit-actions--2"));
