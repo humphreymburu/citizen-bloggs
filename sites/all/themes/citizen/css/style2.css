@@ -1291,7 +1291,7 @@ ul.lavaLampNoImage li.menu-218 a:hover{
 
 
 #region-content ul.tabs a{
-	color: #FFFFFF;
+	color: #ffffff;
     cursor: pointer;
     display: inline-block;
     font-family: Calibri;
@@ -2163,4 +2163,55 @@ text-decoration: none;
 {
 	width:100%;
 }
-
+.node-group-of-members .group-right #signup-form a{
+	-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+}
+.node-group-of-members .group-right #signup-form a:hover{
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+.node-date .group-left #signup-form a{
+	-webkit-appearance: none;
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+border-radius: 11px;
+background: #DDD url(../images/button.png) repeat-x;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #DDD));
+background: -moz-linear-gradient(top center, white 0%, #DDD 100%);
+border: 1px solid;
+border-color: #DDD #BBB #999;
+cursor: pointer;
+color: #333;
+font: bold 12px/1.2 Arial, sans-serif;
+outline: 0;
+overflow: visible;
+padding: 3px 10px 4px;
+text-shadow: white 0 1px 1px;
+width: auto;
+text-decoration: none;
+}
+.node-date .group-left #signup-form a:hover{
+	background: none repeat scroll 0 0 #FFFFFF;
+}

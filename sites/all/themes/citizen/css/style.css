@@ -411,7 +411,10 @@ margin: 10px 0 10px 5px;
     margin-top: 11px;
     padding: 5px;
 }
-
+.node-date .group-left #signup-form div{
+	border:none;
+}
+	
 .node-date .group-right ul.menu li
 {
 	float: left;
@@ -508,6 +511,7 @@ margin: 10px 0 10px 5px;
 .node-group-of-members .group-right .field-author
 {
 	margin: 0 0 10px 0;
+	float:left;
 }
 
 
