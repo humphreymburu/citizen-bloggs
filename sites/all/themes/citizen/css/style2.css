@@ -1606,7 +1606,8 @@ cursor: pointer;
     float: right;
     height: 44px;
     background-color: #D3D3D3;
-    margin-top: 24px
+    margin-top: 24px;
+   margin-bottom: 50px;
 }
 
 .zone-user .block-menu-logged-out-main-menu ul.menu li a {
@@ -1686,12 +1687,15 @@ form#subscriptions-ui-node-form{
  #action-node-form #edit-group-audience-und{
  width:197px;
  }
+ #action-node-form #edit-field-haps-reference-und{
+ width:200px;
+ }
  #action-node-form .field-name-field-haps-reference label
  {
    display:inline-block;
    vertical-align: top;
    
- }
+}
  #action-node-form .field-name-field-invite-users label
  {
  display:inline-block;
@@ -1997,9 +2001,10 @@ text-decoration: none;
 }
 .facebook-action-connect img
 {
-	height: 22px;
-    width: 194px;
+	margin: 0px 50px;
+
 }
+
 #user-login-form
 {
  padding: 0 5px;
@@ -2032,7 +2037,7 @@ border: 1px solid #d3d3d3;
     
 }
 
-div.view-content .views-row
+#region-sidebar-second div.view-content .views-row, #region-footer-first div.view-content .views-row
 {
 	background: url("../images/bullet.png") no-repeat scroll left 7px transparent;
 	padding: 0 0 0 12px;
@@ -2065,8 +2070,8 @@ text-decoration: none;
 	background: none repeat scroll 0 0 #FFFFFF;
 }
 .user-picture img{
-	   	height: 65px;
-	    width: 65px;
+	   	height: 150px;
+	    width: 150px;
 }
 .forum-post-wrapper .user-picture img{
 	float: left;
@@ -2244,3 +2249,12 @@ text-decoration: none;
 .node-action  #signup-form{
 margin: 4px -18px;
 }
+#block-user-login{
+	margin-top:50px;
+	}
+.page-node-add-forum  #edit-field-haps-reference-und{
+	width: 200px;
+}
+	
+	
+	

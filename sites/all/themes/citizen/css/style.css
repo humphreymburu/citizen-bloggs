@@ -245,7 +245,7 @@ td.checkbox, th.checkbox {
 	width: 210px
 	}
 #hap-node-form #edit-field-actions-reference{
-	margin-top:10.7em;
+	margin-top:9.7em;
 }
 #hap-node-form #edit-actions{
 	margin-top:4em;
@@ -280,7 +280,7 @@ td.checkbox, th.checkbox {
 	float: right;
 	
 }
-	
+
 	.filedepottoolbar .filedepottoolbar_searchbox #searchquery
 {
 	height: 26px !important;
@@ -512,8 +512,14 @@ margin: 10px 0 10px 5px;
 {
 	margin: 0 0 10px 0;
 	float:left;
+	  
 }
-
+#block-fboauth-login div.content{
+ color:#4F6AA2;
+  background-color: #4F6AA2;
+   height: 21px;
+   width: 194px; 
+}
 
 
 

@@ -48,8 +48,7 @@ jQuery(function(){
 	}
 	
 		
-	jQuery(".statistics_counter").prepend(jQuery('.field-group-audience').html()+",");
-	jQuery('.field-group-audience').remove();
+	
 	
 	jQuery(".topic-post-count").prepend(jQuery('.statistics_counter').html()+",");
 	jQuery('.statistics_counter').remove();
