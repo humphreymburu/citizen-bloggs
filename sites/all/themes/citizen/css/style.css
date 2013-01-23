@@ -747,5 +747,358 @@ display: inline;
 	clear: both;
 }
 
+/** Fields Content */
 
+
+.field-logo {
+	float: left;
+	display: inline;
+}
+
+.field-organisation{
+	float: left;
+	display: inline;
+	margin-left: 35px;	
+}
+
+
+.field-link-to-lobbyist-page {
+	text-align: right;
+	margin-left: 45px;
+	
+		
+}
+
+.field-link-to-internal-site inline {
+	text-align: left;
+	margin-left: 45px;
+	
+}
+
+
+.field-link-to-website {
+text-align: right;
+	
+	
+
+}
+.field-type-of-group {
+
+text-align: right;
+	
+	
+}
+ 
+ .field-title{
+	float: left;
+	display: inline;
+	clear: both;	
+}
+ 
+ 
+.field-date {
+	margin-top: 8px;
+	text-align: left;
+	clear: both;
+}
+.field-type-of-campaign {
+
+	float: left;
+	display: inline;
+	margin-left: 4px;	
+
+	
+}
+.date-display-single {
+
+	
+    float: left;
+    margin-left: 117px;	
+
+	
+}
+
+
+date-display-single {
+    display: inline;
+    float: left;
+    }
+.field-link-to-campaign-site {
+    float: left;
+	display: inline;
+margin-left: 117px;	
+}
+
+
+
+
+.group-left a:link, a:visited {
+ 
+	float: left;
+	display: inline;
+	color: #59BADA;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+
+
+.group-left a:hover,a:active,a:focus {
+	color: #59BADA;
+	text-decoration: underline;
+	
+
+}
+
+
+.group-right a:link, a:visited {
+ 
+	float: left;
+	display: inline;
+	color: #59BADA;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+
+
+.group-right a:hover,a:active,a:focus {
+	color: #59BADA;
+	text-decoration: underline;
+	
+
+}
+
+.field-body   {
+	display: inline;
+	clear: both;
+	float: left;
+	
+}
+.group-left h3 {
+	margin-bottom: 10px;
+	}
+
+.group-right h3 {
+	margin-bottom: 10px;
+	}
+	
+	.ds-2col-stacked-fluid > .group-left {
+    float: left;
+    width: 60%;
+}
+	.ds-2col-stacked-fluid > .group-right{
+    float: left;
+    width: 40%;
+}
+	
+.group-right .field-label {
+	margin-left: 20px;
+	margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+	
+	
+	.group-left h3{
+	
+	margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+	
+	.group-right h3{
+	
+	margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+	
+	
+	
+	
+	.field-title h2 {
+	color: #95CAEA;
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0;
+	text-transform: uppercase;
+	margin-top: 10px;
+	
+}
+.location map-link, .street-address, .country-name, .map-link, .country-name {
+	text-align: right;
+	margin-left: 20px;
+	
+}
+.fn {
+	text-align: left;
+	float: left;
+	margin-left: 20px;	
+
+}
+.field-what-do-they-generally-sup 
+{
+	text-align: left;
+	clear: both;
+	padding-right: 40px;
+}
+.field-what-are-they-generally-ag {
+	text-align: left;
+	clear: both;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+.ds-2col-stacked-fluid node node-advocacy-types node-promoted view-mode-full  clearfix .group-left {
+	background-color: #FFFF00;
+	display: inline;
+	float: left;
+	width: 50%;
+}
+
+
+
+.field-how-do-you-measure-the-per {
+text-align: left;
+	clear: both;
+
+}
+.group-footer h3 {
+
+margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+
+.group-footer {
+	display: inline;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+
+
+.group-footer .field-body {
+	display: inline;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+
+.group-header .field-body {
+	margin-bottom: 40px;
+}
+
+.block-inner {
+}
+
+/**.block-inner ul {
+list-style-type: none;
+margin: auto;
+display: inline;
+	float: left;
+	clear: both;
+
+
+}*/
+
+.group-header .block-inner h2 {
+	margin-bottom: 5px;
+	text-align: center;
+	display: inline;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+
+.block-inner h2 {
+
+margin-bottom: 5px;
+	
+}
+
+.group-header .content {
+	float: right;
+	display: inline;
+	clear: both;
+}
+
+.group-header .field-body p {
+	border: 1px solid #CCCCCC;
+}
+
+
+.group-header .content ul.menu {
+	background-image: url(../images/bmeain.jpg);
+	background-repeat: repeat-y;
+	border-radius: 155px 155px 10px 10px;
+	display: block;
+	float: right;
+	height: 30px;
+	margin-bottom: 20px;
+	background-color: #333333;
+}
+.group-header .content ul.menu li {
+    display: inline;
+}
+.group-header .content ul.menu li a {
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 5px 36px;
+    text-decoration: none;
+}
+
+.group-header .content a:hover,a:active,a:focus {
+	color: #FFFFFF;
+	text-decoration: underline;
+	
+	}
+	
+.content ul.menu li a:hover {
+    text-decoration: underline;
+}
+.ds-2col-stacked-fluid > .group-right img {
+	max-width: 278px;
+	height: 160px;
+	border: 1px solid #CCCCCC;
+}
+.group-right img {
+	max-width: 278px;
+	height: 160px;
+	border: 1px solid #CCCCCC;
+}
+.ds-2col-fluid > .group-left {
+    float: left;
+    width: 50%;
+}
+.ds-2col-fluid > .group-right{
+    float: right;
+    width: 45%;
+}
+.ds-2col-fluid > .group-right .field-label{
+
+margin-left: -1px;
+	
+	}
 
