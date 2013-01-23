@@ -522,4 +522,230 @@ margin: 10px 0 10px 5px;
 }
 
 
+/** Fields Content */
+
+
+.field-logo, .field-organisation{
+	float: left;
+	display: inline;
+	
+}
+
+
+
+
+.field-link-to-lobbyist-page,.field-link-to-internal-site {
+	text-align: left;
+	clear: both;
+	margin-left: 20px;
+	
+}
+
+
+ 
+ .field-title{
+	float: left;
+	display: inline;
+	clear: both;	
+}
+ 
+ 
+.field-date {
+	margin-top: 8px;
+	text-align: left;
+	clear: both;
+}
+.field-type-of-campaign {
+
+	float: left;
+	display: inline;
+
+	
+}
+.field-link-to-campaign-site {
+    float: left;
+	display: inline;
+
+}
+
+
+
+
+.group-left a:link, a:visited {
+ 
+	float: left;
+	display: inline;
+	color: #59BADA;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+
+
+.group-left a:hover,a:active,a:focus {
+	color: #59BADA;
+	text-decoration: underline;
+	
+
+}
+
+
+.group-right a:link, a:visited {
+ 
+	float: left;
+	display: inline;
+	color: #59BADA;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+
+
+.group-right a:hover,a:active,a:focus {
+	color: #59BADA;
+	text-decoration: underline;
+	
+
+}
+
+.field-body   {
+	display: inline;
+	clear: both;
+	float: left;
+	
+}
+.group-left h3 {
+	margin-bottom: 10px;
+	}
+	
+	
+	
+.group-left {
+	float: left;
+	clear: none;
+	text-align: left;
+	display: inline;
+	margin-bottom: 20px;
+
+}
+.group-right {
+	float: right;
+	clear: none;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.group-right h3 {
+	margin-bottom: 10px;
+	}
+	
+.group-right .field-label {
+	margin-left: 20px;
+	margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+	
+	
+	.group-left h3{
+	
+	margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+	
+	.group-right h3{
+	
+	margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+	
+	
+	
+	
+	.field-title h2 {
+	color: #95CAEA;
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0;
+	text-transform: uppercase;
+	margin-top: 10px;
+	
+}
+.location map-link, .street-address, .country-name, .map-link {
+	text-align: left;
+	clear: both;
+	margin-left: 20px;
+}
+.fn {
+
+text-align: left;
+	clear: both;
+
+}
+.field-what-do-they-generally-sup 
+{
+	text-align: left;
+	clear: both;
+	padding-right: 5px;
+}
+.field-what-are-they-generally-ag {
+	text-align: left;
+	clear: both;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.field-how-do-you-measure-the-per {
+text-align: left;
+	clear: both;
+
+}
+.group-footer h3 {
+
+margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+
+.group-footer {
+	display: inline;
+	float: left;
+}
+
+
+.block-inner {
+}
+
+.block-inner ul {
+list-style-type: none;
+margin: auto;
+display: inline;
+	float: left;
+	clear: both;
+
+
+}
+
+.block-inner h2 {
+	display: inline;
+	float: left;
+	clear: both;
+}
+
 
