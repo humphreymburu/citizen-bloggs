@@ -747,5 +747,425 @@ display: inline;
 	clear: both;
 }
 
+/** Fields Content */
+
+
+
+
+.field-organisation {
+  
+    margin-left: 155px;
+}
+
+.field-link-to-lobbyist-page {
+	
+	text-align: left;
+	margin-left: 175px;
+	word-wrap: break-word;
+
+	
+		
+}
+
+.field-link-to-internal-site {
+	
+	text-align: left;
+	margin-left: 175px;
+	word-wrap: break-word;
+	
+	}
+
+
+.field-link-to-website{
+	margin-left: 175px;
+	
+}
+.field-type-of-group {
+
+text-align: left;
+margin-left:175px;
+	
+	
+}
+ 
+ 
+ 
+
+.field-title{
+	float: left;
+	
+}
+
+.ds-2col-stacked-fluid > .group-left .field-date {
+    clear: both;
+    margin-left: 155px;
+    margin-top: 8px;
+    text-align: left;
+    width: 150px;
+    word-wrap: break-word;
+}
+.field-type-of-campaign {
+	margin-left: 28px;
+	text-align: left;
+
+	float: left;
+}
+
+
+
+.date-display-single {
+	display: inline;
+	float: left;
+	margin-bottom: 5px;
+    }
+.field-link-to-campaign-site {
+	margin-left: 155px;
+	word-wrap: break-word;
+	width: 150px;
+	margin-top: 3px;
+}
+
+
+
+
+.group-left a:link, a:visited {
+ 
+	float: left;
+	display: inline;
+	color: #59BADA;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+
+
+.group-left a:hover,a:active,a:focus {
+	color: #59BADA;
+	text-decoration: underline;
+	
+
+}
+
+
+.group-right a:link, a:visited {
+ 
+	float: left;
+	display: inline;
+	color: #59BADA;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+
+
+.group-right a:hover,a:active,a:focus {
+	color: #59BADA;
+	text-decoration: underline;
+	
+
+}
+
+.field-body   {
+	display: inline;
+	clear: both;
+	float: left;
+	
+}
+.group-left h3 {
+	margin-bottom: 10px;
+	}
+
+.group-right h3 {
+	margin-bottom: 10px;
+	}
+	
+
+.ds-2col-stacked-fluid > .group-right {
+	float: right;
+	width: 48%;
+	margin-left: 2%;
+}
+	
+	.ds-2col-stacked-fluid > .group-left .field-label {
+	ont-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #999999;
+	font-family: Calibri;	
+	}
+	
+	
+	.group-left group-left-one{
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	background-color: #FF0000;
+}
+	
+	.ds-2col-stacked-fluid > .group-left{
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+}
+	.ds-2col-stacked-fluid > .group-right .field-logo {
+    display: inline;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.group-right .field-label {
+	margin-left: 20px;
+	margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+
+
+
+
+
+.ds-2col-stacked-fluid node node-advocacy-types node-promoted view-mode-full, .group-right .field-label{
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+	margin-left: 1px;
+	height: 1.5em;
+
+}
+	
+.group-footer .field-label{
+	margin-bottom: 12px;
+}
+
+	.group-left h3{
+	margin-right: 5px;
+	font-weight: normal;
+	margin-top: 3px;
+	color: #4D4D4D;
+	font-size: 13px;
+}
+	
+	.group-right h3{
+	
+	margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -3px;
+	color: #999999;
+}
+	
+	
+	
+	
+	.ds-2col-stacked-fluid > .group-left .field-title h2 {
+	color: #333333;
+	font-size: 14px;
+	font-weight: normal;
+	margin-right: 3px;
+	margin-top: 3px;
+	float: left;
+	margin-left: 122px;
+	text-align: left;
+	display: inline;
+	font-family: Calibri;
+	letter-spacing: 0.1em;
+}
+
+
+
+
+
+ .street-address, .country-name, .map-link, .country-name {
+	margin-left: 175px;
+	line-height: 1.2em;
+	text-align: left;		
+}
+
+
+.map-link {
+    float: left;
+    margin-left: 88px;
+    text-align: left;
+}
+.fn {
+	text-align: left;
+		line-height: 1.4em;
+
+}
+.field-what-do-they-generally-sup 
+{
+	clear: both;
+   
+    text-align: left;
+}
+.field-what-are-they-generally-ag {
+	clear: both;
+   
+    text-align: left;
+}
+.ds-2col-stacked-fluid node node-advocacy-types node-promoted view-mode-full  clearfix .group-left {
+	background-color: #FFFF00;
+	display: inline;
+	float: left;
+	width: 50%;
+	
+}
+
+
+
+.field-how-do-you-measure-the-per {
+	text-align: left;
+	clear: both;
+	margin-top: -1px;
+}
+.group-footer h3 {
+
+margin-right: 5px;
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #999999;
+}
+
+.group-footer {
+	display: inline;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 22px;
+}
+
+
+.group-footer .field-body {
+	display: inline;
+	float: left;
+	border: 1px solid #CCCCCC;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+
+.group-header .field-body {
+	margin-bottom: 20px;
+}
+
+.block-inner {
+}
+
+/**.block-inner ul {
+list-style-type: none;
+margin: auto;
+display: inline;
+	float: left;
+	clear: both;
+
+
+}*/
+
+.group-header .block-inner h2 {
+	margin-bottom: 5px;
+	text-align: center;
+	display: inline;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+
+.block-inner h2 {
+	margin-bottom: 5px;
+	
+}
+
+.group-header .content {
+	float: right;
+	display: inline;
+	clear: both;
+}
+
+.group-header .field-body p {
+	border: 1px solid #CCCCCC;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;	
+}
+
+
+.group-header .content ul.menu {
+	background-image: url(../images/bmeain.jpg);
+	background-repeat: repeat-y;
+	border-radius: 155px 155px 10px 10px;
+	display: block;
+	float: right;
+	height: 30px;
+	margin-bottom: 20px;
+	background-color: #333333;
+}
+.group-header .content ul.menu li {
+    display: inline;
+}
+.group-header .content ul.menu li a {
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Calibri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    padding: 5px 36px;
+    text-decoration: none;
+}
+
+.group-header .content a:hover,a:active,a:focus {
+	color: #FFFFFF;
+	text-decoration: underline;
+	
+	}
+	
+.content ul.menu li a:hover {
+    text-decoration: underline;
+}
+.ds-2col-stacked-fluid > .group-right img {
+	max-width: 278px;
+	height: 160px;
+	border: 1px solid #CCCCCC;
+}
+.group-right img {
+	max-width: 278px;
+	height: 160px;
+	border: 1px solid #CCCCCC;
+}
+.ds-2col-fluid > .group-left {
+    float: left;
+    width: 54%;
+	padding-right: 1%;
+}
+.ds-2col-fluid > .group-right{
+	float: right;
+	width: 44%;
+	line-height: 1.4em;
+	padding-left: 1%;	
+}
+.ds-2col-fluid > .group-right .field-label{
+	margin-left: -1px;
+	display: inline;
+	float: left;
+	
+		}
+	.ds-2col-fluid > .group-right .field-logo {
+    display: inline;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
 
 
